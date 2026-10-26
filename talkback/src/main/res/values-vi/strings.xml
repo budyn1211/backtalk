@@ -19,13 +19,10 @@
   <string name="search_mode_cancel">Đã hủy tìm kiếm.</string>
   <string name="notification_type_status_started">Đã bắt đầu</string>
   <string name="notification_type_status_stopped">Đã dừng</string>
-  <string name="notification_type_status_connected">đã kết nối</string>
-  <string name="notification_battery_level_unknown">không xác định</string>
   <string name="notification_battery_saver_mode">Trình tiết kiệm pin đang bật</string>
   <string name="template_no_text_selected">Không có văn bản nào được chọn</string>
   <string name="template_charging">Đang sạc được %1$s mức pin là %2$s phần trăm.</string>
   <string name="template_charging_lite">Đang sạc %1$s</string>
-  <string name="template_battery_state">Nguồn %1$s %2$s phần trăm %3$s</string>
   <string name="template_language_options_menu_item">%1$s (%2$s)</string>
   <string name="value_ringer_vibrate">Chuông rung.</string>
   <string name="value_ringer_silent">Chuông im lặng.</string>
@@ -60,14 +57,9 @@
   <string name="pref_speak_time_title">Đọc to thời gian</string>
   <string name="pref_speak_time_summary">Khi bạn bật màn hình</string>
   <string name="summary_speak_container_element_positions">Bao gồm thông tin khi ra vào các danh sách, lưới và vùng chứa khác hiện có</string>
-  <string name="confirm_focus_delay_reading_control_added_dialog_title">Đã thêm độ trễ tiêu điểm vào chế độ điều khiển chức năng đọc</string>
-  <string name="confirm_focus_delay_reading_control_added_dialog_message">Vuốt bằng 3 ngón tay để dùng chế độ điều khiển chức năng đọc và thay đổi độ trễ tiêu điểm bất cứ lúc nào</string>
   <string name="confirm_the_typing_focus_delay_reduction_dialog_title">Chuyển sang chế độ nhấc để nhập?</string>
   <string name="message_of_typing_focus_delay_reduction_confirm_dialog">Khi đặt độ trễ tiêu điểm khi nhập ở mức dưới 0,3 giây, bạn sẽ rất khó nhấn đúp để nhập. Chọn \"Chuyển\" để tự động chuyển sang chế độ nhấc để nhập.\n\nĐể dùng chế độ này, hãy giữ ngón tay để chọn phím bất kỳ rồi nhấc ngón tay lên để nhập.\n\nBạn có thể tuỳ chỉnh chế độ này trong phần cài đặt TalkBack.</string>
-  <string name="confirm_typing_focus_delay_reading_control_added_dialog_title">Đã thêm độ trễ tiêu điểm khi nhập vào chế độ điều khiển chức năng đọc</string>
-  <string name="confirm_typing_focus_delay_reading_control_added_dialog_message">Nếu bạn gặp vấn đề khi nhập bằng cách nhấn đúp, hãy vuốt bằng 3 ngón tay để dùng chế độ điều khiển chức năng đọc và chuyển sang độ trễ tiêu điểm dài hơn khi nhập</string>
   <string name="gestures_announce_typing_focus_wont_change">Tính năng Độ trễ tiêu điểm khi nhập không hoạt động nếu không có chế độ Nhấc để nhập.</string>
-  <string name="confirm_latency_reduction_reading_control_added_dialog_positive_button">Tôi hiểu</string>
   <string name="reset_letency_reduction_settings_dialog_title">Đặt lại chế độ cài đặt độ trễ?</string>
   <string name="message_reset_letency_reduction_settings_confirm_dialog">Thao tác này sẽ đặt lại mọi chế độ cài đặt độ trễ về mặc định</string>
   <string name="reset_button_in_reset_letency_reduction_settings_confirm_dialog">Đặt lại</string>
@@ -116,8 +108,6 @@
   <string name="pref_category_selector_menu_summary_single_finger">Để dùng trình đơn điều khiển chức năng đọc, hãy vuốt lên rồi vuốt xuống.</string>
   <string name="title_pref_manage_keyboard_shortcuts">Phím tắt</string>
   <string name="title_pref_export_custom_labels">Xuất nhãn tùy chỉnh</string>
-  <string name="title_pref_play_store">Mở TalkBack tại Cửa hàng Play</string>
-  <string name="summary_pref_play_store">Phiên bản TalkBack hiện tại: %1$s</string>
   <string name="title_pref_help_and_feedback">Trợ giúp và phản hồi</string>
   <string name="title_pref_gup">Liên hệ với Nhóm hỗ trợ người khuyết tật của Google</string>
   <string name="subtitle_pref_gup">Nhận trợ giúp khi dùng TalkBack hoặc báo cáo vấn đề</string>
@@ -639,7 +629,6 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="summary_cache_keyboard_keys">TalkBack tải sẵn thông báo để giảm độ trễ khi bạn nhập</string>
   <string name="summary_cache_keyboard_keys_disabled">Dùng ứng dụng Chuyển văn bản sang lời nói của Google để sử dụng tính năng này</string>
   <string name="value_direction_down">xuống</string>
-  <string name="value_direction_down_and_right">xuống rồi sang phải</string>
   <string name="title_pref_shortcut_up">Vuốt lên</string>
   <string name="title_pref_shortcut_up_xr">Lòng bàn tay phụ hướng vào trong, chụm hai ngón tay rồi vuốt lên</string>
   <string name="title_pref_shortcut_down">Vuốt xuống</string>
@@ -911,8 +900,6 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="typing_echo_change">Phản hồi âm thanh khi gõ %1$s (bàn phím vật lý)</string>
   <string name="reading_control_toggle_prefix_xr">Lòng bàn tay phụ hướng vào trong, nhấn và giữ để bật/tắt chế độ điều khiển chức năng đọc.</string>
   <string name="gesture_1_or_2">%1$s hoặc %2$s</string>
-  <string name="select_setting_hint">%1$s để chọn một tùy chọn cài đặt khác</string>
-  <string name="adjust_setting_hint">%1$s để điều chỉnh tùy chọn cài đặt này</string>
   <string name="adjust_granularity_hint">%1$s để đọc theo %2$s</string>
   <string name="adjust_typo_hint">%1$s để xem nội dung đề xuất.</string>
   <string name="use_action_hint">Nhấn đúp để thực hiện thao tác</string>
@@ -1234,8 +1221,6 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="wear_training_typing_text5">Hãy thử ngay nào.</string>
   <string name="wear_training_typing_practice_button_content_description">Nhập bằng bàn phím</string>
   <string name="wear_training_end_tutorial_title">Giờ thì bạn có thể bắt đầu dùng TalkBack</string>
-  <string name="talkback_updated_notification_title">TalkBack đã được cập nhật</string>
-  <string name="talkback_updated_notification_content">Nhấn để tìm hiểu thêm</string>
   <string name="wear_new_feature_page_title">Chào mừng bạn đến với TalkBack phiên bản mới</string>
   <string name="wear_new_feature_page_content">Bạn sẽ nhận thấy một số nội dung sửa lỗi và thay đổi về cách di chuyển tiêu điểm</string>
   <string name="wear_new_feature_page_button_content_description">Hoàn tất</string>

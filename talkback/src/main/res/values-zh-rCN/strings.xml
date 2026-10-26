@@ -19,13 +19,10 @@
   <string name="search_mode_cancel">搜索已取消。</string>
   <string name="notification_type_status_started">已开始</string>
   <string name="notification_type_status_stopped">已停止</string>
-  <string name="notification_type_status_connected">已连接</string>
-  <string name="notification_battery_level_unknown">未知</string>
   <string name="notification_battery_saver_mode">省电模式已开启</string>
   <string name="template_no_text_selected">尚未选中任何文字</string>
   <string name="template_charging">充电%1$s，电池电量为百分之 %2$s。</string>
   <string name="template_charging_lite">充电%1$s</string>
-  <string name="template_battery_state">电池%1$s，电量为百分之 %2$s，%3$s</string>
   <string name="template_language_options_menu_item">%1$s（%2$s）</string>
   <string name="value_ringer_vibrate">振铃器振动。</string>
   <string name="value_ringer_silent">振铃器静音。</string>
@@ -60,14 +57,9 @@
   <string name="pref_speak_time_title">播报时间</string>
   <string name="pref_speak_time_summary">在您开启屏幕时</string>
   <string name="summary_speak_container_element_positions">包括进入和退出列表、网格及其他容器时的信息</string>
-  <string name="confirm_focus_delay_reading_control_added_dialog_title">已向朗读控件添加焦点延迟</string>
-  <string name="confirm_focus_delay_reading_control_added_dialog_message">用 3 根手指滑动即可开启朗读控件，随时调整焦点延迟时间</string>
   <string name="confirm_the_typing_focus_delay_reduction_dialog_title">要改为抬起输入吗？</string>
   <string name="message_of_typing_focus_delay_reduction_confirm_dialog">输入焦点延迟时间设为低于 0.3 秒时，很难执行点按两次输入的操作。选择“切换”可自动改为抬起输入模式。\n\n如需使用抬起输入模式，请用一根手指按住要选择的任意键，然后抬起手指即可输入。\n\n您可在 TalkBack 设置中自定义此功能。</string>
-  <string name="confirm_typing_focus_delay_reading_control_added_dialog_title">已向朗读控件添加输入焦点延迟</string>
-  <string name="confirm_typing_focus_delay_reading_control_added_dialog_message">如果您在输入时执行点按两次的操作时遇到问题，请用 3 根手指滑动以开启朗读控件，并将输入焦点延迟时间设为更长</string>
   <string name="gestures_announce_typing_focus_wont_change">必须开启抬起输入模式，输入焦点延迟才会生效。</string>
-  <string name="confirm_latency_reduction_reading_control_added_dialog_positive_button">知道了</string>
   <string name="reset_letency_reduction_settings_dialog_title">要重置延迟时间设置吗？</string>
   <string name="message_reset_letency_reduction_settings_confirm_dialog">执行此操作会将所有延迟时间设置重置为默认值</string>
   <string name="reset_button_in_reset_letency_reduction_settings_confirm_dialog">重置</string>
@@ -116,8 +108,6 @@
   <string name="pref_category_selector_menu_summary_single_finger">如需使用朗读控件，请先向上再向下滑动。</string>
   <string name="title_pref_manage_keyboard_shortcuts">键盘快捷键</string>
   <string name="title_pref_export_custom_labels">导出自定义标签</string>
-  <string name="title_pref_play_store">在 Play 商店中打开 TalkBack</string>
-  <string name="summary_pref_play_store">当前的 TalkBack 版本：%1$s</string>
   <string name="title_pref_help_and_feedback">帮助和反馈</string>
   <string name="title_pref_gup">联系 Google 残障人士支持团队</string>
   <string name="subtitle_pref_gup">获取 TalkBack 用法帮助或报告问题</string>
@@ -639,7 +629,6 @@
   <string name="summary_cache_keyboard_keys">TalkBack 会预加载播报内容，以缩短输入延迟时间</string>
   <string name="summary_cache_keyboard_keys_disabled">通过 Google 文字转语音功能才能使用此功能</string>
   <string name="value_direction_down">向下</string>
-  <string name="value_direction_down_and_right">先向下再向右</string>
   <string name="title_pref_shortcut_up">向上滑动</string>
   <string name="title_pref_shortcut_up_xr">将非惯用手的手掌朝向自己，双指张合并向上滑动</string>
   <string name="title_pref_shortcut_down">向下滑动</string>
@@ -907,8 +896,6 @@
   <string name="typing_echo_change">实体键盘%1$s语音提示</string>
   <string name="reading_control_toggle_prefix_xr">将非惯用手的手掌朝向自己，长按即可切换朗读控件模式。</string>
   <string name="gesture_1_or_2">%1$s或%2$s</string>
-  <string name="select_setting_hint">%1$s即可选择其他设置</string>
-  <string name="adjust_setting_hint">%1$s即可调整该设置</string>
   <string name="adjust_granularity_hint">%1$s即可按%2$s朗读</string>
   <string name="adjust_typo_hint">%1$s可获取建议。</string>
   <string name="use_action_hint">点按两次即可执行该操作</string>
@@ -1230,8 +1217,6 @@
   <string name="wear_training_typing_text5">请在下方尝试。</string>
   <string name="wear_training_typing_practice_button_content_description">使用键盘输入内容</string>
   <string name="wear_training_end_tutorial_title">您已准备好开始使用 TalkBack</string>
-  <string name="talkback_updated_notification_title">TalkBack 已更新</string>
-  <string name="talkback_updated_notification_content">点按即可查看更多内容</string>
   <string name="wear_new_feature_page_title">欢迎使用新版 TalkBack</string>
   <string name="wear_new_feature_page_content">如您所见，部分问题已修复，焦点移动方式也已更改</string>
   <string name="wear_new_feature_page_button_content_description">完成</string>

@@ -456,7 +456,6 @@
   <string name="script_install_adds">Dodawane polecenia:</string>
   <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="script_install_command"><xliff:g id="title">%1$s</xliff:g>: <xliff:g id="bindings">%2$s</xliff:g></string>
   <string name="title_pref_sound_themes">Tematy dźwiękowe</string>
-  <string name="summary_pref_sound_themes">Instaluj i wybieraj zestawy dźwięków i wibracji, zastępuj pojedyncze dźwięki własnymi oraz włączaj dźwięki i wibracje kontrolek i dźwięk 3D.</string>
   <string name="sound_themes_installed_category">Zainstalowane tematy</string>
   <string name="sound_theme_backtalk">Backtalk</string>
   <string name="sound_theme_backtalk_description">Dźwięki i wibracje Backtalka oraz dodane przez Ciebie dźwięki.</string>
@@ -490,8 +489,6 @@
   </plurals>
   <string name="sound_theme_export_failed">Nie udało się zapisać pliku tematu.</string>
   <string name="sound_theme_no_picker">Na tym urządzeniu nie ma aplikacji do wybierania plików.</string>
-  <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="sound_theme_settings_category">Ustawienia tematu: <xliff:g id="theme" example="Unspoken">%1$s</xliff:g></string>
-  <string name="title_pref_theme_sounds">Dźwięki</string>
   <string name="summary_pref_theme_sounds">Zastąp dowolny dźwięk tego tematu własnym plikiem dźwiękowym.</string>
   <string name="sound_themes_install_category">Zainstaluj temat</string>
   <string name="title_pref_sound_theme_install_file">Z pliku</string>

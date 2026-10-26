@@ -124,7 +124,6 @@
     <string name="pref_help_key">pref_help</string>
     <string name="pref_manage_labels_key">pref_manage_labels</string>
     <string name="pref_manage_keyboard_shortcuts">pref_manage_keyboard_shortcuts</string>
-    <string name="pref_play_store_key">pref_play_store</string>
     <string name="pref_help_and_feedback_key">pref_help_and_feedback</string>
     <string name="pref_gup_key">pref_gup_key</string>
   <string name="pref_show_tos_key">pref_show_tos</string>
@@ -718,14 +717,6 @@
 
     <string-array name="pref_choose_trigger_modifier_values">
         <item>@string/trigger_modifier_alt_entry_value</item>
-        <item>@string/trigger_modifier_meta_entry_value</item>
-    </string-array>
-
-    <string-array name="pref_new_keymap_choose_trigger_modifier_entries">
-        <item>@string/keycombo_key_modifier_meta</item>
-    </string-array>
-
-    <string-array name="pref_new_keymap_choose_trigger_modifier_values">
         <item>@string/trigger_modifier_meta_entry_value</item>
     </string-array>
 

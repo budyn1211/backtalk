@@ -19,13 +19,10 @@
   <string name="search_mode_cancel">Hætt við leit.</string>
   <string name="notification_type_status_started">Hófst</string>
   <string name="notification_type_status_stopped">Stöðvað</string>
-  <string name="notification_type_status_connected">tengt</string>
-  <string name="notification_battery_level_unknown">óþekkt</string>
   <string name="notification_battery_saver_mode">Kveikt á rafhlöðusparnaði</string>
   <string name="template_no_text_selected">Enginn texti valinn</string>
   <string name="template_charging">Í hleðslu %1$s Orka rafhlöðu er %2$s prósent.</string>
   <string name="template_charging_lite">Hleðsla %1$s</string>
-  <string name="template_battery_state">Rafmagn %1$s %2$s prósent %3$s</string>
   <string name="template_language_options_menu_item">%1$s (%2$s)</string>
   <string name="value_ringer_vibrate">Titrar við hringingu.</string>
   <string name="value_ringer_silent">Engin hringing.</string>
@@ -60,14 +57,9 @@
   <string name="pref_speak_time_title">Segja hvað klukkan er</string>
   <string name="pref_speak_time_summary">Þegar þú kveikir á skjánum</string>
   <string name="summary_speak_container_element_positions">Inniheldur upplýsingar á meðan farið er inn og út úr listum, hnitanetum og öðrum geymum</string>
-  <string name="confirm_focus_delay_reading_control_added_dialog_title">Fókustöf var bætt við lesstýringu</string>
-  <string name="confirm_focus_delay_reading_control_added_dialog_message">Þú getur hvenær sem er strokið með þremur fingrum til að nota lesstýringuna og breyta fókustöfinni</string>
   <string name="confirm_the_typing_focus_delay_reduction_dialog_title">Skipta yfir í „Sleppa til að slá inn“?</string>
   <string name="message_of_typing_focus_delay_reduction_confirm_dialog">Þegar fókustöf á innslætti er stillt á undir 0,3 sekúndur verður mjög erfitt að ýta tvisvar við innslátt. Veldu „Skipta“ til að skipta sjálfkrafa yfir í „Sleppa til að slá inn“.\n\nTil að nota „Sleppa til að slá inn“ heldurðu fingrinum inni á hvaða hnappi sem er og lyftir síðan til að slá hann inn.\n\nÞú getur sérsniðið þetta í stillingum TalkBack.</string>
-  <string name="confirm_typing_focus_delay_reading_control_added_dialog_title">Töf innsláttarfókuss var bætt við lesstýringu</string>
-  <string name="confirm_typing_focus_delay_reading_control_added_dialog_message">Ef vandamál koma upp með að ýta tvisvar við innslátt skaltu strjúka með þremur fingrum til að virkja lesstýringuna og lengja töf innsláttarfókuss</string>
   <string name="gestures_announce_typing_focus_wont_change">Fókustöf á innslætti virkar ekki án „Sleppa til að slá inn“.</string>
-  <string name="confirm_latency_reduction_reading_control_added_dialog_positive_button">Ég skil</string>
   <string name="reset_letency_reduction_settings_dialog_title">Endurstilla tafarstillingar?</string>
   <string name="message_reset_letency_reduction_settings_confirm_dialog">Þetta verður til þess að allar tafarstillingar verða endurstilltar</string>
   <string name="reset_button_in_reset_letency_reduction_settings_confirm_dialog">Endurstilla</string>
@@ -116,8 +108,6 @@
   <string name="pref_category_selector_menu_summary_single_finger">Strjúktu upp og svo niður til að nota lesstýringar.</string>
   <string name="title_pref_manage_keyboard_shortcuts">Flýtilyklar</string>
   <string name="title_pref_export_custom_labels">Flytja út sérsniðin merki</string>
-  <string name="title_pref_play_store">Opna TalkBack í Play Store</string>
-  <string name="summary_pref_play_store">Núverandi útgáfa TalkBack: %1$s</string>
   <string name="title_pref_help_and_feedback">Hjálp og ábendingar</string>
   <string name="title_pref_gup">Hafðu samband við aðgangs- og hjálpartækni Google</string>
   <string name="subtitle_pref_gup">Fáðu hjálp við að nota TalkBack eða tilkynna um vandamál</string>
@@ -639,7 +629,6 @@ Tafir undir 0,3 sekúndum munu breyta „Ýta tvisvar til að virkja“ í „Ý
   <string name="summary_cache_keyboard_keys">TalkBack forhleður tilkynningum til að draga úr töfum á meðan þú skrifar</string>
   <string name="summary_cache_keyboard_keys_disabled">Kveiktu á talgervli Google til að nota þennan eiginleika</string>
   <string name="value_direction_down">niður</string>
-  <string name="value_direction_down_and_right">niður og svo til hægri</string>
   <string name="title_pref_shortcut_up">Strjúka upp</string>
   <string name="title_pref_shortcut_up_xr">Lófi aukahandar að þér, vísifingur og þumalfingur saman og strjúka upp</string>
   <string name="title_pref_shortcut_down">Strjúka niður</string>
@@ -911,8 +900,6 @@ Tafir undir 0,3 sekúndum munu breyta „Ýta tvisvar til að virkja“ í „Ý
   <string name="typing_echo_change">%1$s vélbúnaðarlyklaborðs lesnir upp</string>
   <string name="reading_control_toggle_prefix_xr">Snúðu lófa aukahandarinnar að þér og haltu inni til að kveikja eða slökkva á lesstýringum.</string>
   <string name="gesture_1_or_2">%1$s eða %2$s</string>
-  <string name="select_setting_hint">%1$s til að velja aðra stillingu</string>
-  <string name="adjust_setting_hint">%1$s til að breyta stillingu</string>
   <string name="adjust_granularity_hint">%1$s til að lesa eftir %2$s</string>
   <string name="adjust_typo_hint">%1$s til að fá tillögur.</string>
   <string name="use_action_hint">Ýttu tvisvar til að framkvæma aðgerðina</string>
@@ -1234,8 +1221,6 @@ Tafir undir 0,3 sekúndum munu breyta „Ýta tvisvar til að virkja“ í „Ý
   <string name="wear_training_typing_text5">Prófaðu þetta hér fyrir neðan.</string>
   <string name="wear_training_typing_practice_button_content_description">Innsláttur af lyklaborði</string>
   <string name="wear_training_end_tutorial_title">Þú getur byrjað að nota TalkBack</string>
-  <string name="talkback_updated_notification_title">TalkBack var uppfært</string>
-  <string name="talkback_updated_notification_content">Ýttu til að fá frekari upplýsingar</string>
   <string name="wear_new_feature_page_title">Velkomin(n) í uppfært TalkBack</string>
   <string name="wear_new_feature_page_content">Þú sérð nokkrar villuleiðréttingar og breytingar á hvernig fókusinn hreyfist</string>
   <string name="wear_new_feature_page_button_content_description">Ljúka</string>
