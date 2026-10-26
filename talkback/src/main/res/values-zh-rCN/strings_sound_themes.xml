@@ -136,4 +136,36 @@
     <string name="theme_sound_not_audio">Backtalk 无法播放该文件。请选择 WAV、OGG、MP3 或 FLAC 声音。</string>
     <!-- Theme sounds: message when the chosen file cannot be read. [CHAR LIMIT=NONE] -->
     <string name="theme_sound_failed">Backtalk 无法读取该文件。</string>
+
+    <!-- Theme settings: entry that opens the sounds of the theme. [CHAR LIMIT=50] -->
+    <string name="sound_theme_customisation">声音自定义</string>
+    <!-- Sound and vibration: entry that opens the management of sound themes. [CHAR LIMIT=50] -->
+    <string name="title_pref_manage_sound_themes">管理声音主题</string>
+    <!-- Sound and vibration: summary of the entry that opens the management of sound themes. [CHAR LIMIT=NONE] -->
+    <string name="summary_pref_manage_sound_themes">创建、安装、导出和移除声音主题，并更改它们的设置和声音。</string>
+    <!-- Manage sound themes: entry that creates a theme. [CHAR LIMIT=50] -->
+    <string name="title_pref_new_sound_theme">新建主题</string>
+    <!-- Manage sound themes: summary of the entry that creates a theme. [CHAR LIMIT=NONE] -->
+    <string name="summary_pref_new_sound_theme">制作你自己的主题并选择它的声音，每设置一个就能听到效果。</string>
+    <!-- New theme dialog: title and field hints. [CHAR LIMIT=50] -->
+    <string name="new_theme_title">新建声音主题</string>
+    <string name="new_theme_name_hint">名称</string>
+    <string name="new_theme_author_hint">作者</string>
+    <string name="new_theme_description_hint">说明</string>
+    <!-- New theme dialog: check box for whether the theme has control sounds. [CHAR LIMIT=NONE] -->
+    <string name="new_theme_control_sounds">支持控件声音</string>
+    <!-- New theme dialog: button that creates the theme. [CHAR LIMIT=30] -->
+    <string name="new_theme_create">创建</string>
+    <!-- New theme dialog: error when the name is empty. [CHAR LIMIT=NONE] -->
+    <string name="new_theme_needs_name">请输入名称。</string>
+    <!-- New theme dialog: error when a theme of this name is installed. [CHAR LIMIT=NONE] -->
+    <string name="new_theme_exists">已存在同名主题。</string>
+    <!-- Sound and vibration: choice of the sound theme in use. [CHAR LIMIT=50] -->
+    <string name="title_pref_sound_scheme">声音方案</string>
+    <!-- Theme sounds: choice that sets an event to play no sound. [CHAR LIMIT=50] -->
+    <string name="theme_sound_none">无声音</string>
+    <!-- Theme sounds: summary of an event set to play no sound. [CHAR LIMIT=60] -->
+    <string name="theme_sound_summary_no_sound">无声音</string>
+    <!-- Theme sounds: accessibility action that sets an event to play no sound. [CHAR LIMIT=50] -->
+    <string name="theme_sound_action_set_none">设为无声音</string>
 </resources>

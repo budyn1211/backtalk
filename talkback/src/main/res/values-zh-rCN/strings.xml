@@ -707,10 +707,6 @@
   <string name="title_pref_shortcut_fingerprint_left">在指纹传感器上向左滑动</string>
   <string name="title_pref_shortcut_fingerprint_right">在指纹传感器上向右滑动</string>
   <string name="title_pref_version_code">版本代码</string>
-  <string formatted="false" name="value_volume_100_percent">与系统语音音量一致</string>
-  <string formatted="false" name="value_volume_75_percent">系统语音音量的 75％</string>
-  <string formatted="false" name="value_volume_50_percent">系统语音音量的 50％</string>
-  <string formatted="false" name="value_volume_25_percent">系统语音音量的 25%</string>
   <string name="value_type_confirmation_double_tap">用手指按住要选择的任意键，然后点按两次</string>
   <string name="value_type_confirmation_lift_to_type">用手指按住要选择的字母键，然后松开手指。对于其他键，请点按两次。</string>
   <string name="value_type_confirmation_lift_to_type_for_any_key">用手指按住要选择的任意键，然后松开手指</string>
@@ -2251,4 +2247,17 @@
 
     <!-- The result of the detailed image description when Gemini failed, with the reason it failed. [CHAR_LIMIT=NONE]-->
     <string name="detailed_image_description_fallback_result_with_reason"><xliff:g id="fallback_result" example="Text in image: Hello world!!">%1$s</xliff:g>。无法获取更详细的图像描述：<xliff:g id="reason" example="Gemini is busy right now. Try again in a moment.">%2$s</xliff:g></string>
+
+    <!-- Label for the shortcut that scrolls the current list to its start and focuses its first item. [CHAR_LIMIT=40] -->
+    <string name="shortcut_scroll_to_top">滚动到顶部</string>
+    <!-- Label for the shortcut that scrolls the current list to its end and focuses its last item. [CHAR_LIMIT=40] -->
+    <string name="shortcut_scroll_to_bottom">滚动到底部</string>
+    <!-- Preference label for volume 25% of the accessibility-stream volume. [CHAR_LIMIT=NONE] -->
+    <string name="value_volume_25_percent" formatted="false">语音音量的 25%</string>
+    <!-- Preference label for volume 50% of the accessibility-stream volume. [CHAR_LIMIT=NONE] -->
+    <string name="value_volume_50_percent" formatted="false">语音音量的 50%</string>
+    <!-- Preference label for volume 75% of the accessibility-stream volume. [CHAR_LIMIT=NONE] -->
+    <string name="value_volume_75_percent" formatted="false">语音音量的 75%</string>
+    <!-- Preference label for volume the same as the accessibility-stream volume. [CHAR_LIMIT=NONE] -->
+    <string name="value_volume_100_percent" formatted="false">与语音音量一致</string>
 </resources>

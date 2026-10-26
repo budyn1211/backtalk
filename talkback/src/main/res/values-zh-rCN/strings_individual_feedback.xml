@@ -58,4 +58,23 @@
 
     <!-- Vibration when deleting on the braille keyboard with nothing left to delete. [CHAR LIMIT=60] -->
     <string name="individual_vibration_braille_nothing_to_delete">盲文键盘：没有可删除的内容</string>
+
+    <!-- Sound played when direct touch turns on. [CHAR LIMIT=60] -->
+    <string name="individual_sound_direct_touch_enter">直接触摸已开启</string>
+    <!-- Sound played when direct touch turns off. [CHAR LIMIT=60] -->
+    <string name="individual_sound_direct_touch_exit">直接触摸已关闭</string>
+    <!-- Sound played when the on-screen keyboard goes away. [CHAR LIMIT=60] -->
+    <string name="individual_sound_keyboard_hide">键盘已隐藏</string>
+    <!-- Sound played when the on-screen keyboard appears. [CHAR LIMIT=60] -->
+    <string name="individual_sound_keyboard_show">键盘已显示</string>
+    <!-- Sound played when the selected setting changes to the next one. [CHAR LIMIT=60] -->
+    <string name="individual_sound_rotor_next">下一个设置</string>
+    <!-- Sound played when the selected setting changes to the previous one. [CHAR LIMIT=60] -->
+    <string name="individual_sound_rotor_previous">上一个设置</string>
+    <!-- Sound played when the screen turns on. [CHAR LIMIT=60] -->
+    <string name="individual_sound_screen_on">屏幕已开启</string>
+    <!-- Sound played when moving back wraps around to the last item. [CHAR LIMIT=60] -->
+    <string name="individual_sound_wrap_back">已循环到末尾</string>
+    <!-- Sound played when moving forward wraps around to the first item. [CHAR LIMIT=60] -->
+    <string name="individual_sound_wrap_forward">已循环到开头</string>
 </resources>
