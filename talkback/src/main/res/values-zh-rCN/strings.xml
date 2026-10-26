@@ -1442,8 +1442,6 @@
   <string name="notifictions_in_lock_screen_notification_content">如需在屏幕处于关闭状态时听到通知，请在 TalkBack 详细程度设置中开启“屏幕处于关闭状态时读出通知”</string>
 
 
-    <!--The human-readable name of this service. Do not translate. -->
-    <string name="talkback_title" translatable="false">Backtalk</string>
 
     <!--
       Source: Title for the TTS engine selection preference in TalkBack settings.
@@ -1882,62 +1880,24 @@
     <!-- The text of the Backtalk-on banner when no 3-finger tap opens the Backtalk menu. [CHAR_LIMIT=NONE]-->
     <string name="talkback_exit_watermark_text_no_menu_gesture">Backtalk 已开启。用两根手指按住屏幕 5 秒可关闭。要停止显示此消息，请关闭 Backtalk 设置 > 高级设置 > 显示关闭 Backtalk 的说明。</string>
 
-    <!-- Announce toggle sound feedback on or off -->
-    <string name="keycombo_menu_global_announce_toggle_sound_feedback" translatable="false">@string/shortcut_toggle_sound_feedback</string>
 
-    <!-- Keyboard key combination assignment for increasing speech rate [CHAR LIMIT=40]-->
-    <string name="keycombo_menu_global_speech_rate_increase" translatable="false">@string/shortcut_speech_rate_increase</string>
 
-    <!-- Keyboard key combination assignment for decreasing speech rate [CHAR LIMIT=40]-->
-    <string name="keycombo_menu_global_speech_rate_decrease" translatable="false">@string/shortcut_speech_rate_decrease</string>
 
-    <!-- Keyboard key combination assignment for increasing speech pitch [CHAR LIMIT=40]-->
-    <string name="keycombo_menu_global_speech_pitch_increase" translatable="false">@string/shortcut_speech_pitch_increase</string>
 
-    <!-- Keyboard key combination assignment for decreasing speech pitch [CHAR LIMIT=40]-->
-    <string name="keycombo_menu_global_speech_pitch_decrease" translatable="false">@string/shortcut_speech_pitch_decrease</string>
 
-    <!-- Keyboard key combination assignment for reset speech settings [CHAR LIMIT=40]-->
-    <string name="keycombo_menu_global_reset_speech_settings" translatable="false">@string/shortcut_reset_speech_settings</string>
 
-    <!-- Keyboard key combination assignment for toggling voice feedback [CHAR LIMIT=80]-->
-    <string name="keycombo_menu_global_toggle_voice_feedback" translatable="false">@string/shortcut_toggle_voice_feedback</string>
 
-    <!-- Keyboard key combination assignment for describe image [CHAR LIMIT=40]-->
-    <string name="keycombo_menu_global_describe_image" translatable="false">@string/title_image_caption</string>
 
-    <!-- Keyboard key combination assignment for announcing current time and date [CHAR LIMIT=60]-->
-    <string name="keycombo_menu_global_announce_current_time_and_date" translatable="false">@string/shortcut_announce_current_time_and_date</string>
 
-    <!-- Keyboard key combination assignment for announcing battery state [CHAR LIMIT=80]-->
-    <string name="keycombo_menu_global_announce_battery_state" translatable="false">@string/shortcut_announce_battery_state</string>
 
-    <!-- Keyboard key combination assignment for announcing current title [CHAR LIMIT=80]-->
-    <string name="keycombo_menu_global_announce_current_title" translatable="false">@string/shortcut_announce_current_title</string>
 
-    <!-- Keyboard key combination assignment for announcing phonetic pronunciation [CHAR LIMIT=80]-->
-    <string name="keycombo_menu_global_announce_phonetic_pronunciation" translatable="false">@string/shortcut_announce_phonetic_pronunciation</string>
 
-    <!-- Keyboard key combination assignment for screen overview [CHAR LIMIT=40] -->
-    <string name="keycombo_menu_global_screen_overview" translatable="false">@string/title_summarize_view</string>
 
-    <!-- Keyboard key combination assignment for showing the Learn Mode page [CHAR LIMIT=40] -->
-    <string name="keycombo_menu_global_show_learn_mode_page" translatable="false">@string/shortcut_show_learn_mode_page</string>
 
-    <!-- Keyboard key combination assignment for cycling the punctuation verbosity [CHAR LIMIT=40]-->
-    <string name="keycombo_menu_global_cycle_punctuation_verbosity" translatable="false">@string/shortcut_cycle_punctuation_verbosity</string>
 
-    <!-- Keyboard key combination assignment for toggle selection [CHAR LIMIT=40] -->
-    <string name="keycombo_menu_other_toggle_selection" translatable="false">@string/shortcut_toggle_selection</string>
 
-    <!-- Keyboard key combination assignment for opening the Tutorial page. [CHAR LIMIT=60] -->
-    <string name="keycombo_menu_other_show_tutorial" translatable="false">@string/shortcut_show_tutorial</string>
 
-    <!-- Keyboard key combination assignment for toggle braille contracted mode. [CHAR LIMIT=60] -->
-    <string name="keycombo_menu_other_toggle_braille_contracted_mode" translatable="false">@string/shortcut_toggle_braille_contracted_mode</string>
 
-    <!-- Keyboard key combination assignment for toggle braille on screen overlay. [CHAR LIMIT=60] -->
-    <string name="keycombo_menu_other_toggle_braille_on_screen_overlay" translatable="false">@string/shortcut_toggle_braille_on_screen_overlay</string>
 
     <!--
       Source: Preference for choosing the audio output device for TalkBack.
@@ -2017,11 +1977,7 @@
     <!-- Message for dialog shown when a user wants to enable screen description. [CHAR LIMIT=NONE]  -->
     <string name="dialog_message_screen_overview_promotion">屏幕截图会被发送到 Google 的 Gemini API 进行描述，这需要几秒钟。开启端侧 AI 后，改为在本机上描述，不会上传。\n\n使用免费 API 密钥时，Google 可能会保留其收到的内容、用于改进其产品，并安排人员审阅。生成式 AI 属于实验性功能，因此会出错。适用 <xliff:g id="Gemini API terms" example="Gemini API Additional Terms of Service">%1$s</xliff:g>。</string>
 
-    <!-- Title for the screen search overlay. -->
-    <string name="title_screen_search" translatable="false">@string/title_show_screen_search</string>
 
-    <!-- Keyboard key combination assignment for reset speech settings [CHAR LIMIT=40]-->
-    <string name="shortcut_reset_speech_settings" translatable="false">@string/reset_speech_rate_and_pitch</string>
 
     <!-- Label for the gesture action that drops the text selected for copying. [CHAR_LIMIT=40] -->
     <string name="title_clear_selection">清除选择</string>
@@ -2200,17 +2156,9 @@
     <!-- Title of the switch that lets the first item focused in a new window interrupt the window name, instead of waiting for it to finish. [CHAR LIMIT=NONE] -->
     <string name="title_pref_first_item_interrupts_window_name">不等窗口名称就朗读第一项</string>
 
-    <!-- Announces speech pitch increases. This is spoken to the user. [CHAR_LIMIT=100] -->
-    <string name="speech_pitch_increase" translatable="false">@string/shortcut_speech_pitch_increase</string>
 
-    <!-- Announces speech pitch decreases. This is spoken to the user. [CHAR_LIMIT=100] -->
-    <string name="speech_pitch_decrease" translatable="false">@string/shortcut_speech_pitch_decrease</string>
 
-    <!-- The title of talkback tutorial. [CHAR_LIMIT=NONE] -->
-    <string name="talkback_tutorial_title" translatable="false">@string/title_pref_category_tutorial</string>
 
-    <!-- The content of typo correction edit box typos example. [CHAR_LIMIT=NONE]-->
-    <string name="typo_correction_typo_example" translatable="false">Wellcome too Backtalk.</string>
 
     <!-- Gemini rejected the API key the user entered in Automatic descriptions settings. [CHAR_LIMIT=NONE]-->
     <string name="gemini_error_api_key">Gemini 不接受该 API 密钥。请在自动描述设置中检查密钥。</string>

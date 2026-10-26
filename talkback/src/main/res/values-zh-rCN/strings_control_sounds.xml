@@ -17,13 +17,6 @@
     <!-- Sound and vibration settings: control sounds only move between the left and right speakers. [CHAR LIMIT=60] -->
     <string name="pref_control_sounds_3d_never">从不，仅左右声道</string>
 
-    <string-array name="pref_control_sounds_3d_entries" translatable="false"><item>@string/pref_control_sounds_3d_headphones</item>
-        <item>@string/pref_control_sounds_3d_always</item>
-        <item>@string/pref_control_sounds_3d_never</item></string-array>
-    <string-array name="pref_control_sounds_3d_values" translatable="false"><item>headphones</item>
-        <item>always</item>
-        <item>never</item></string-array>
-
     <!-- Individual sounds and vibrations: control sound for buttons. [CHAR LIMIT=60] -->
     <string name="individual_sound_control_button">控件声音：按钮</string>
     <!-- Individual sounds and vibrations: control sound for checkboxes, switches and toggle buttons. [CHAR LIMIT=60] -->
