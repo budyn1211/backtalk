@@ -185,6 +185,7 @@ import com.google.android.accessibility.talkback.focusmanagement.record.Accessib
 import com.google.android.accessibility.talkback.gesture.GestureController;
 import com.google.android.accessibility.talkback.gesture.GestureHistory;
 import com.google.android.accessibility.talkback.gesture.GestureShortcutMapping;
+import com.google.android.accessibility.talkback.gesture.OtherTouchExplorers;
 import com.google.android.accessibility.talkback.gesture.TwoFingerRotationTracker;
 import com.google.android.accessibility.talkback.gesture.VibrationWatchGestureSettings;
 import com.google.android.accessibility.talkback.imagecaption.ImageCaptionStorage;
@@ -811,6 +812,7 @@ public class TalkBackService extends AccessibilityServiceCompat
 
   private @Nullable SpeechCacheController speechCacheController;
   private @Nullable Boolean useServiceGestureDetection;
+  private @Nullable OtherTouchExplorers otherTouchExplorers;
   private LanguageActor languageActor;
   // In general, volume key should work as pass through mode, unless the touch interaction is
   // ongoing or in continuous reading mode. isTouchInteracting denotes the occurrence of key
@@ -959,6 +961,10 @@ public class TalkBackService extends AccessibilityServiceCompat
       eventLatencyLogger.destroy();
     }
 
+    if (FeatureSupport.supportGestureDetection() && otherTouchExplorers != null) {
+      otherTouchExplorers.stop();
+      otherTouchExplorers = null;
+    }
     if (shouldUseTalkbackGestureDetection()) {
       unregisterGestureDetection();
     }
@@ -1983,6 +1989,10 @@ public class TalkBackService extends AccessibilityServiceCompat
     updateTalkBackEnabledCount();
 
     // Service gesture detection.
+    if (FeatureSupport.supportGestureDetection() && otherTouchExplorers == null) {
+      otherTouchExplorers = new OtherTouchExplorers(this, this::onOtherTouchExplorersChanged);
+      otherTouchExplorers.start();
+    }
     if (shouldUseTalkbackGestureDetection()) {
       registerGestureDetection();
       setSupportClickableLinks(true);
@@ -4394,7 +4404,37 @@ public class TalkBackService extends AccessibilityServiceCompat
               getString(R.string.pref_talkback_gesture_detection_key),
               getResources().getBoolean(R.bool.pref_talkback_gesture_detection_default));
     }
-    return useServiceGestureDetection;
+    // Leave gestures to Android while another service explores by touch, or double tap can stop
+    // working for both services.
+    return useServiceGestureDetection
+        && (otherTouchExplorers == null || !otherTouchExplorers.getOtherServiceExploresByTouch());
+  }
+
+  /**
+   * Hands gestures to Android when another service starts exploring by touch, and takes them back
+   * when no other service does.
+   */
+  private void onOtherTouchExplorersChanged() {
+    if (!isServiceActive()) {
+      return;
+    }
+    if (shouldUseTalkbackGestureDetection()) {
+      LogUtils.i(TAG, "No other service explores by touch, handling gestures in Backtalk");
+      unregisterGestureDetection();
+      registerGestureDetection();
+      setSupportClickableLinks(true);
+    } else if (displayIdToTouchInteractionMonitors.size() != 0) {
+      LogUtils.i(TAG, "Another service explores by touch, leaving gestures to Android");
+      unregisterGestureDetection();
+      AccessibilityServiceInfo info = getServiceInfo();
+      if (info != null) {
+        // With this flag clear, Android carries out double tap itself, as when Handle gestures in
+        // Backtalk is off.
+        info.flags &= ~FLAG_SERVICE_HANDLES_DOUBLE_TAP;
+        setServiceInfo(info);
+      }
+      setSupportClickableLinks(false);
+    }
   }
 
   private void registerGestureDetection() {
