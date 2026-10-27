@@ -53,14 +53,6 @@
     <string translatable="false" name="key_rocker_up">摇杆向上</string>
     <!-- Key name for the rocker down key on a braille display. -->
     <string translatable="false" name="key_rocker_down">摇杆向下</string>
-    <!-- Name of a numbered function key on a braille display. -->
-    <string translatable="false" name="key_F1">F1</string>
-    <!-- Name of a numbered function key on a braille display. -->
-    <string translatable="false" name="key_F2">F2</string>
-    <!-- Name of a numbered function key on a braille display. -->
-    <string translatable="false" name="key_F3">F3</string>
-    <!-- Name of a numbered function key on a braille display. -->
-    <string translatable="false" name="key_F4">F4</string>
     <!-- Name of the backward key on a braille display -->
     <string translatable="false" name="key_Backward">后退</string>
     <!-- Name of the forward key on a braille display -->
@@ -96,10 +88,6 @@
 
     <!-- BraillePen keys -->
 
-    <!-- Name for the shift key on the braillepen display. -->
-    <string translatable="false" name="key_BP_Shift">Shift</string>
-    <!-- Name for the control key on the braillepen display. -->
-    <string translatable="false" name="key_BP_Control">Control</string>
     <!-- Name for the scroll left key on the braille pen display. -->
     <string translatable="false" name="key_BP_ScrollLeft">向左滚动</string>
     <!-- Name for the scroll right key on the braille pen display. -->

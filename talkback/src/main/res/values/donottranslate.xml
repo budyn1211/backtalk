@@ -124,7 +124,6 @@
     <string name="pref_help_key">pref_help</string>
     <string name="pref_manage_labels_key">pref_manage_labels</string>
     <string name="pref_manage_keyboard_shortcuts">pref_manage_keyboard_shortcuts</string>
-    <string name="pref_play_store_key">pref_play_store</string>
     <string name="pref_help_and_feedback_key">pref_help_and_feedback</string>
     <string name="pref_gup_key">pref_gup_key</string>
   <string name="pref_show_tos_key">pref_show_tos</string>
@@ -255,6 +254,7 @@
     </string-array>
     <string name="pref_selector_switch_tts_engine_key" translatable="false">pref_selector_switch_tts_engine_key</string>
     <string name="pref_selector_voice_profile_key" translatable="false">pref_selector_voice_profile_key</string>
+    <string name="pref_selector_audio_output_device_key" translatable="false">pref_selector_audio_output_device_key</string>
     <string name="pref_selector_voice_profile_moved_key" translatable="false">pref_selector_voice_profile_moved</string>
     <string name="pref_selector_control_telling_time" translatable="false">pref_selector_control_telling_time</string>
     <string name="pref_selector_actions_key" translatable="false">pref_selector_actions_key </string>
@@ -721,14 +721,6 @@
         <item>@string/trigger_modifier_meta_entry_value</item>
     </string-array>
 
-    <string-array name="pref_new_keymap_choose_trigger_modifier_entries">
-        <item>@string/keycombo_key_modifier_meta</item>
-    </string-array>
-
-    <string-array name="pref_new_keymap_choose_trigger_modifier_values">
-        <item>@string/trigger_modifier_meta_entry_value</item>
-    </string-array>
-
     <!-- Keyboard echo preference entries. Must be synchronized with TextFormatters.java. -->
     <string-array name="pref_keyboard_echo_entries">
         <item>@string/value_keyboard_echo_none</item>
@@ -988,6 +980,15 @@
     </string-array>
 
     <string name="pref_multi_tap_timeout_default" translatable="false">250</string>
+
+    <string-array name="pref_actions_sound_timing_entries">
+      <item>@string/value_actions_sound_timing_focus</item>
+      <item>@string/value_actions_sound_timing_hint</item>
+    </string-array>
+    <string-array name="pref_actions_sound_timing_values">
+      <item>focus</item>
+      <item>hint</item>
+    </string-array>
 
     <string name="pref_rotor_step_degrees_key" translatable="false">pref_rotor_step_degrees</string>
   <!-- Rotor turn per step entries -->
@@ -1570,6 +1571,7 @@
     <bool name="pref_selector_links_controls_web_only_default">false</bool>
     <bool name="pref_selector_tablet_held_up_faces_away_default">false</bool>
     <bool name="pref_selector_switch_tts_engine_default">false</bool>
+    <bool name="pref_selector_audio_output_device_default">false</bool>
     <bool name="pref_selector_voice_profile_default">false</bool>
     <bool name="pref_selector_touch_focus_latency_default">false</bool>
     <bool name="pref_selector_control_telling_time_default">false</bool>
@@ -1890,6 +1892,7 @@
     <string name="selector_lift_to_activate_change" translatable="false">SELECTOR_LIFT_TO_ACTIVATE_CHANGE</string>
     <string name="selector_wrap_around" translatable="false">SELECTOR_WRAP_AROUND</string>
     <string name="selector_tablet_held_up_faces_away" translatable="false">SELECTOR_TABLET_HELD_UP_FACES_AWAY</string>
+    <string name="selector_audio_output_device" translatable="false">SELECTOR_AUDIO_OUTPUT_DEVICE</string>
     <string name="selector_switch_tts_engine" translatable="false">SELECTOR_SWITCH_TTS_ENGINE</string>
     <string name="selector_voice_profile" translatable="false">SELECTOR_VOICE_PROFILE</string>
     <string name="selector_touch_focus_latency_change" translatable="false">SELECTOR_TOUCH_FOCUS_LATENCY_CHANGE</string>

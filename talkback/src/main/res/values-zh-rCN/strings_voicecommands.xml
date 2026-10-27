@@ -143,6 +143,4 @@
     <!-- Voice-shortcut command word that is homophone of high and hi.  [CHAR_LIMIT=30] -->
     <string name="voice_commands_homophone_high_and_hi" translatable="false">嗨</string>
 
-    <!-- Voice-shortcut command word to start Gemini.  [CHAR_LIMIT=30] -->
-    <string name="voice_commands_gemini" translatable="false">Gemini</string>
 </resources>

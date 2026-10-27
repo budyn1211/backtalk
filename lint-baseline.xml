@@ -34,38 +34,6 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;title_pref_category_apps&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;title_pref_category_apps&quot;>Apps&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings.xml"
-            line="362"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="MissingTranslation"
-        message="&quot;title_pref_touch_activation&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;title_pref_touch_activation&quot;>Touch and activation&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings.xml"
-            line="364"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="MissingTranslation"
-        message="&quot;title_pref_navigation&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;title_pref_navigation&quot;>Navigation&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings.xml"
-            line="366"
-            column="13"/>
-    </issue>
-    <issue
-        id="MissingTranslation"
         message="&quot;title_pref_volume_keys_adjust_sliders&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
         errorLine1="    &lt;string name=&quot;title_pref_volume_keys_adjust_sliders&quot;>Volume keys adjust sliders&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
@@ -350,16 +318,6 @@
     </issue>
     <issue
         id="MissingTranslation"
-        message="&quot;battery_optimization_notification_title&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;battery_optimization_notification_title&quot;>Battery optimization can stop Backtalk&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings.xml"
-            line="177"
-            column="13"/>
-    </issue>
-    <issue
-        id="MissingTranslation"
         message="&quot;action_copy_command&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
         errorLine1="    &lt;string name=&quot;action_copy_command&quot;>Copy command&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
@@ -377,16 +335,6 @@
             file="src/main/res/values/strings.xml"
             line="2975"
             column="11"/>
-    </issue>
-    <issue
-        id="MissingTranslation"
-        message="&quot;title_pref_focus_new_windows&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;title_pref_focus_new_windows&quot;>Move focus to new windows&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings.xml"
-            line="2503"
-            column="13"/>
     </issue>
     <issue
         id="MissingTranslation"
@@ -4884,45 +4832,12 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;script_api_too_old&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;script_api_too_old&quot;>Needs script API &lt;xliff:g id=&quot;needed&quot;>%1$d&lt;/xliff:g> or later. This Backtalk has &lt;xliff:g id=&quot;current&quot;>%2$d&lt;/xliff:g>, so parts may not work.&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings_scripts.xml"
-            line="158"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="MissingTranslation"
-        message="&quot;script_api_untested&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;script_api_untested&quot;>Tested up to script API &lt;xliff:g id=&quot;tested&quot;>%1$d&lt;/xliff:g>. This Backtalk has &lt;xliff:g id=&quot;current&quot;>%2$d&lt;/xliff:g>, so it may not work as expected.&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings_scripts.xml"
-            line="160"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="MissingTranslation"
         message="&quot;script_state_incompatible&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
         errorLine1="    &lt;string name=&quot;script_state_incompatible&quot;>May not work with this Backtalk&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/values/strings_scripts.xml"
             line="162"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="MissingTranslation"
-        message="&quot;script_api_range&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;script_api_range&quot;>Script API &lt;xliff:g id=&quot;min&quot;>%1$d&lt;/xliff:g> to &lt;xliff:g id=&quot;tested&quot;>%2$d&lt;/xliff:g>&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings_scripts.xml"
-            line="164"
             column="13"/>
     </issue>
 
@@ -5577,17 +5492,6 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;summary_pref_sound_themes&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;summary_pref_sound_themes&quot;>Install and choose sets of sounds and vibrations, replace single sounds with your own, and turn on control sounds and vibrations and 3D audio.&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings_sound_themes.xml"
-            line="6"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="MissingTranslation"
         message="&quot;sound_themes_installed_category&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
         errorLine1="    &lt;string name=&quot;sound_themes_installed_category&quot;>Installed themes&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
@@ -5698,17 +5602,6 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;sound_theme_use&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;sound_theme_use&quot;>Use this theme&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings_sound_themes.xml"
-            line="35"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="MissingTranslation"
         message="&quot;sound_theme_about&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
         errorLine1="    &lt;string name=&quot;sound_theme_about&quot;>About this theme&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
@@ -5792,28 +5685,6 @@
         <location
             file="src/main/res/values/strings_sound_themes.xml"
             line="54"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="MissingTranslation"
-        message="&quot;sound_theme_settings_category&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;sound_theme_settings_category&quot;>Settings of &lt;xliff:g id=&quot;theme&quot; example=&quot;Unspoken&quot;>%1$s&lt;/xliff:g>&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings_sound_themes.xml"
-            line="57"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="MissingTranslation"
-        message="&quot;title_pref_theme_sounds&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;title_pref_theme_sounds&quot;>Sounds&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings_sound_themes.xml"
-            line="59"
             column="13"/>
     </issue>
 
@@ -6454,29 +6325,6 @@
             line="34"
             column="13"/>
     </issue>
-    <issue
-        id="MissingTranslation"
-        message="&quot;title_selector_switch_tts_engine&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;title_selector_switch_tts_engine&quot;>Speech engine&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings.xml"
-            line="58"
-            column="13"/>
-    </issue>
-
-
-
-    <issue
-        id="MissingTranslation"
-        message="&quot;script_sources&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;script_sources&quot;>Script sources&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings_scripts.xml"
-            line="256"
-            column="13"/>
-    </issue>
 
 
 
@@ -6491,26 +6339,6 @@
 
 
 
-    <issue
-        id="MissingTranslation"
-        message="&quot;on_device_ai_notification_paused&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;on_device_ai_notification_paused&quot;>Android paused the download. Open settings to carry on.&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings_on_device_ai.xml"
-            line="64"
-            column="13"/>
-    </issue>
-    <issue
-        id="MissingTranslation"
-        message="&quot;code_user_facing_name_mongolian&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="  &lt;string name=&quot;code_user_facing_name_mongolian&quot;>Mongolian&lt;/string>"
-        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/phone/res/values/strings.xml"
-            line="148"
-            column="11"/>
-    </issue>
 
 
 
@@ -8901,50 +8729,6 @@
 
     <issue
         id="NewApi"
-        message="Call requires API level 30 (current min is 26): `android.view.WindowInsets#getInsets`"
-        errorLine1="          windowMetrics.getWindowInsets().getInsets(WindowInsetsCompat.Type.displayCutout());"
-        errorLine2="                                          ~~~~~~~~~">
-        <location
-            file="src/main/java/com/google/android/accessibility/talkback/actor/DimScreenActor.java"
-            line="267"
-            column="43"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="Call requires API level 30 (current min is 26): `android.view.WindowMetrics#getWindowInsets`"
-        errorLine1="          windowMetrics.getWindowInsets().getInsets(WindowInsetsCompat.Type.displayCutout());"
-        errorLine2="                        ~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/java/com/google/android/accessibility/talkback/actor/DimScreenActor.java"
-            line="267"
-            column="25"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="Field requires API level 29 (current min is 26): `android.graphics.Insets#bottom`"
-        errorLine1="      int cutoutHeight = cutoutInsets.top + cutoutInsets.bottom;"
-        errorLine2="                                            ~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/java/com/google/android/accessibility/talkback/actor/DimScreenActor.java"
-            line="268"
-            column="45"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="Field requires API level 29 (current min is 26): `android.graphics.Insets#top`"
-        errorLine1="      int cutoutHeight = cutoutInsets.top + cutoutInsets.bottom;"
-        errorLine2="                         ~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/java/com/google/android/accessibility/talkback/actor/DimScreenActor.java"
-            line="268"
-            column="26"/>
-    </issue>
-
-    <issue
-        id="NewApi"
         message="Call requires API level 30 (current min is 26): `android.view.WindowMetrics#getBounds`"
         errorLine1="      width = windowMetrics.getBounds().width();"
         errorLine2="                            ~~~~~~~~~">
@@ -10869,105 +10653,6 @@
     </issue>
 
     <issue
-        id="NewApi"
-        message="`@android:color/system_neutral1_900` requires API level 31 (current min is 26)"
-        errorLine1="  &lt;color name=&quot;a11y_wear_material_color_primary&quot;>@android:color/system_neutral1_900&lt;/color>"
-        errorLine2="                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/colors.xml"
-            line="47"
-            column="50"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="`@android:color/system_neutral1_50` requires API level 31 (current min is 26)"
-        errorLine1="  &lt;color name=&quot;a11y_wear_material_color_on_primary&quot;>@android:color/system_neutral1_50&lt;/color>"
-        errorLine2="                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/colors.xml"
-            line="48"
-            column="53"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="`@android:color/system_accent1_600` requires API level 31 (current min is 26)"
-        errorLine1="  &lt;color name=&quot;a11y_wear_material_color_primary_variant&quot;>@android:color/system_accent1_600&lt;/color>"
-        errorLine2="                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/colors.xml"
-            line="49"
-            column="58"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="`@android:color/system_neutral2_700` requires API level 31 (current min is 26)"
-        errorLine1="  &lt;color name=&quot;a11y_wear_material_color_secondary&quot;>@android:color/system_neutral2_700&lt;/color>"
-        errorLine2="                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/colors.xml"
-            line="50"
-            column="52"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="`@android:color/system_neutral2_200` requires API level 31 (current min is 26)"
-        errorLine1="  &lt;color name=&quot;a11y_wear_material_color_on_secondary&quot;>@android:color/system_neutral2_200&lt;/color>"
-        errorLine2="                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/colors.xml"
-            line="51"
-            column="55"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="`@android:color/system_neutral2_200` requires API level 31 (current min is 26)"
-        errorLine1="  &lt;color name=&quot;a11y_wear_material_color_secondary_variant&quot;>@android:color/system_neutral2_200&lt;/color>"
-        errorLine2="                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/colors.xml"
-            line="52"
-            column="60"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="`@android:color/system_neutral1_10` requires API level 31 (current min is 26)"
-        errorLine1="  &lt;color name=&quot;a11y_wear_material_color_surface&quot;>@android:color/system_neutral1_10&lt;/color>"
-        errorLine2="                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/colors.xml"
-            line="53"
-            column="50"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="`@android:color/system_neutral1_800` requires API level 31 (current min is 26)"
-        errorLine1="  &lt;color name=&quot;a11y_wear_material_color_on_surface&quot;>@android:color/system_neutral1_800&lt;/color>"
-        errorLine2="                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/colors.xml"
-            line="54"
-            column="53"/>
-    </issue>
-
-    <issue
-        id="NewApi"
-        message="`@android:color/system_neutral1_800` requires API level 31 (current min is 26)"
-        errorLine1="  &lt;color name=&quot;a11y_wear_material_color_surface_variant&quot;>@android:color/system_neutral1_800&lt;/color>"
-        errorLine2="                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/colors.xml"
-            line="55"
-            column="58"/>
-    </issue>
-
-    <issue
         id="OldTargetApi"
         message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
         errorLine1="      android:targetSdkVersion=&quot;34&quot; />"
@@ -11431,17 +11116,6 @@
 
     <issue
         id="WrongConstant"
-        message="Must be one or more of: "
-        errorLine1="          windowMetrics.getWindowInsets().getInsets(WindowInsetsCompat.Type.displayCutout());"
-        errorLine2="                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/main/java/com/google/android/accessibility/talkback/actor/DimScreenActor.java"
-            line="267"
-            column="53"/>
-    </issue>
-
-    <issue
-        id="WrongConstant"
         message="Must be one of: Compositor.EVENT_UNKNOWN, Compositor.EVENT_SPOKEN_FEEDBACK_ON, Compositor.EVENT_SPOKEN_FEEDBACK_DISABLED, Compositor.EVENT_CAPS_LOCK_ON, Compositor.EVENT_CAPS_LOCK_OFF, Compositor.EVENT_NUM_LOCK_ON, Compositor.EVENT_NUM_LOCK_OFF, Compositor.EVENT_SCROLL_LOCK_ON, Compositor.EVENT_SCROLL_LOCK_OFF, Compositor.EVENT_ORIENTATION_PORTRAIT, Compositor.EVENT_ORIENTATION_LANDSCAPE, Compositor.EVENT_TYPE_INPUT_TEXT_CLEAR, Compositor.EVENT_TYPE_INPUT_TEXT_REMOVE, Compositor.EVENT_TYPE_INPUT_TEXT_ADD, Compositor.EVENT_TYPE_INPUT_TEXT_REPLACE, Compositor.EVENT_TYPE_INPUT_TEXT_PASSWORD_ADD, Compositor.EVENT_TYPE_INPUT_TEXT_PASSWORD_REMOVE, Compositor.EVENT_TYPE_INPUT_TEXT_PASSWORD_REPLACE, Compositor.EVENT_TYPE_INPUT_CHANGE_INVALID, Compositor.EVENT_TYPE_INPUT_SELECTION_FOCUS_EDIT_TEXT, Compositor.EVENT_TYPE_INPUT_SELECTION_MOVE_CURSOR_TO_BEGINNING, Compositor.EVENT_TYPE_INPUT_SELECTION_MOVE_CURSOR_TO_END, Compositor.EVENT_TYPE_INPUT_SELECTION_MOVE_CURSOR_NO_SELECTION, Compositor.EVENT_TYPE_INPUT_SELECTION_MOVE_CURSOR_WITH_SELECTION, Compositor.EVENT_TYPE_INPUT_SELECTION_MOVE_CURSOR_SELECTION_CLEARED, Compositor.EVENT_TYPE_INPUT_SELECTION_CUT, Compositor.EVENT_TYPE_INPUT_SELECTION_PASTE, Compositor.EVENT_TYPE_INPUT_SELECTION_TEXT_TRAVERSAL, Compositor.EVENT_TYPE_INPUT_SELECTION_SELECT_ALL, Compositor.EVENT_TYPE_INPUT_SELECTION_SELECT_ALL_WITH_KEYBOARD, Compositor.EVENT_TYPE_INPUT_SELECTION_RESET_SELECTION, Compositor.EVENT_TYPE_SET_TEXT_BY_ACTION, Compositor.EVENT_SPEAK_HINT, Compositor.EVENT_SYNTHESIZE_SPEECH, Compositor.EVENT_MAGNIFICATION_CHANGED, Compositor.EVENT_SCROLL_POSITION, Compositor.EVENT_INPUT_DESCRIBE_NODE, Compositor.EVENT_TYPE_VIEW_ACCESSIBILITY_FOCUSED, Compositor.EVENT_TYPE_VIEW_FOCUSED, Compositor.EVENT_TYPE_VIEW_HOVER_ENTER, Compositor.EVENT_TYPE_VIEW_CLICKED, Compositor.EVENT_TYPE_VIEW_LONG_CLICKED, Compositor.EVENT_TYPE_NOTIFICATION_STATE_CHANGED, Compositor.EVENT_TYPE_WINDOW_CONTENT_CHANGED, Compositor.EVENT_TYPE_VIEW_SELECTED, Compositor.EVENT_TYPE_VIEW_SCROLLED, Compositor.EVENT_TYPE_ANNOUNCEMENT, Compositor.EVENT_TYPE_WINDOW_STATE_CHANGED, Compositor.EVENT_TYPE_TOUCH_INTERACTION_START, Compositor.EVENT_TYPE_TOUCH_INTERACTION_END, Compositor.EVENT_TYPE_VIEW_TEXT_CHANGED, Compositor.EVENT_TYPE_VIEW_TEXT_SELECTION_CHANGED, Compositor.EVENT_TYPE_VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY"
         errorLine1="            AccessibilityEvent.TYPE_VIEW_ACCESSIBILITY_FOCUSED);"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
@@ -11779,39 +11453,6 @@
             file="src/phone/java/com/google/android/accessibility/brailleime/tutorial/VerticalTextView.java"
             line="13"
             column="39"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of androidx.wear.compose:compose-foundation than 1.7.0 is available: 1.7.1"
-        errorLine1="wearCompose = &quot;1.7.0&quot;"
-        errorLine2="              ~~~~~~~">
-        <location
-            file="../gradle/libs.versions.toml"
-            line="6"
-            column="15"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of androidx.wear.compose:compose-material3 than 1.7.0 is available: 1.7.1"
-        errorLine1="wearCompose = &quot;1.7.0&quot;"
-        errorLine2="              ~~~~~~~">
-        <location
-            file="../gradle/libs.versions.toml"
-            line="6"
-            column="15"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of androidx.collection:collection than 1.6.0 is available: 1.7.0"
-        errorLine1="androidx-collection = &quot;androidx.collection:collection:1.6.0&quot;"
-        errorLine2="                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="../gradle/libs.versions.toml"
-            line="22"
-            column="23"/>
     </issue>
 
     <issue
@@ -14107,17 +13748,6 @@
             file="src/main/res/values-pt/strings_keyboard_tutorial.xml"
             line="91"
             column="26"/>
-    </issue>
-
-    <issue
-        id="Typos"
-        message="Repeated word &quot;search&quot; in message: possible typo"
-        errorLine1="  &lt;string name=&quot;keyboard_tutorial_screen_search_page_title&quot;>Using screen search search&lt;/string>"
-        errorLine2="                                                                         ~~~~~~~~~~~~~">
-        <location
-            file="src/main/res/values/strings_keyboard_tutorial.xml"
-            line="131"
-            column="74"/>
     </issue>
 
     <issue
@@ -20280,17 +19910,6 @@
 
     <issue
         id="UnusedResources"
-        message="The resource `R.string.pref_category_selector_menu_summary_no_rotor` appears to be unused"
-        errorLine1="    &lt;string name=&quot;pref_category_selector_menu_summary_no_rotor&quot;>Swipe left or right with 3 fingers to choose a reading control. Then swipe up or down to change it.&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="talkback/src/main/res/values/strings.xml"
-            line="603"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
         message="The resource `R.string.pref_category_selector_menu_summary_xr` appears to be unused"
         errorLine1="    &lt;string name=&quot;pref_category_selector_menu_summary_xr&quot;>To cycle between reading controls, turn your secondary palm in, hold your pinch, move right or left, and release.&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
@@ -20506,28 +20125,6 @@
         <location
             file="talkback/src/main/res/values/strings.xml"
             line="1123"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
-        message="The resource `R.string.value_audio_output_device_none_connected` appears to be unused"
-        errorLine1="    &lt;string name=&quot;value_audio_output_device_none_connected&quot;>Bluetooth or wired (none connected)&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="talkback/src/main/res/values/strings.xml"
-            line="1209"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
-        message="The resource `R.string.value_audio_output_device_aux_line` appears to be unused"
-        errorLine1="    &lt;string name=&quot;value_audio_output_device_aux_line&quot;>Auxiliary audio line&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="talkback/src/main/res/values/strings.xml"
-            line="1244"
             column="13"/>
     </issue>
 
@@ -21193,17 +20790,6 @@
 
     <issue
         id="UnusedResources"
-        message="The resource `R.string.wear_training_welcome_paragraph` appears to be unused"
-        errorLine1="  &lt;string name=&quot;wear_training_welcome_paragraph&quot;>When Backtalk is on, the focused item on the screen is spoken out loud.\n\nSwiping right moves to the next item. Swiping left moves to the previous item.\n\nSwipe right now until you find the next button.&lt;/string>"
-        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="talkback/src/main/res/values/strings.xml"
-            line="3601"
-            column="11"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
         message="The resource `R.string.wear_training_scroll_text` appears to be unused"
         errorLine1="  &lt;string name=&quot;wear_training_scroll_text&quot; tools:ignore=&quot;PluralsCandidate&quot;>Swipe up or down with &lt;xliff:g id=&quot;two&quot; example=&quot;2&quot;>%1$d&lt;/xliff:g> fingers.&lt;/string>"
         errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
@@ -21270,17 +20856,6 @@
 
     <issue
         id="UnusedResources"
-        message="The resource `R.string.wear_training_volume_up_text` appears to be unused"
-        errorLine1="  &lt;string name=&quot;wear_training_volume_up_text&quot;>Swipe right and then up&lt;/string>"
-        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="talkback/src/main/res/values/strings.xml"
-            line="3617"
-            column="11"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
         message="The resource `R.string.wear_training_volume_down_title` appears to be unused"
         errorLine1="  &lt;string name=&quot;wear_training_volume_down_title&quot;>Turn down volume&lt;/string>"
         errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
@@ -21292,34 +20867,12 @@
 
     <issue
         id="UnusedResources"
-        message="The resource `R.string.wear_training_volume_down_text` appears to be unused"
-        errorLine1="  &lt;string name=&quot;wear_training_volume_down_text&quot;>Swipe right and then down&lt;/string>"
-        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="talkback/src/main/res/values/strings.xml"
-            line="3621"
-            column="11"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
         message="The resource `R.string.wear_training_open_talkback_menu_title` appears to be unused"
         errorLine1="  &lt;string name=&quot;wear_training_open_talkback_menu_title&quot;>Open Backtalk menu&lt;/string>"
         errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="talkback/src/main/res/values/strings.xml"
             line="3623"
-            column="11"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
-        message="The resource `R.string.wear_training_open_talkback_menu_text` appears to be unused"
-        errorLine1="  &lt;string name=&quot;wear_training_open_talkback_menu_text&quot;>To open settings and controls you may need often, swipe down and then right&lt;/string>"
-        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="talkback/src/main/res/values/strings.xml"
-            line="3625"
             column="11"/>
     </issue>
 
@@ -23292,61 +22845,6 @@
     </issue>
 
     <issue
-        id="Autofill"
-        message="Missing `autofillHints` attribute"
-        errorLine1="    &lt;EditText"
-        errorLine2="     ~~~~~~~~">
-        <location
-            file="src/main/res/layout/keyboard_shortcuts_dialog.xml"
-            line="49"
-            column="6"/>
-    </issue>
-
-    <issue
-        id="Autofill"
-        message="Missing `autofillHints` attribute"
-        errorLine1="        &lt;EditText"
-        errorLine2="         ~~~~~~~~">
-        <location
-            file="src/main/res/layout/label_addedit_dialog.xml"
-            line="39"
-            column="10"/>
-    </issue>
-
-    <issue
-        id="Autofill"
-        message="Missing `autofillHints` attribute"
-        errorLine1="    &lt;EditText"
-        errorLine2="     ~~~~~~~~">
-        <location
-            file="src/main/res/layout/screen_search_dialog.xml"
-            line="56"
-            column="6"/>
-    </issue>
-
-    <issue
-        id="Autofill"
-        message="Missing `autofillHints` attribute"
-        errorLine1="  &lt;EditText"
-        errorLine2="   ~~~~~~~~">
-        <location
-            file="src/main/res/layout/screen_search_text_search.xml"
-            line="40"
-            column="4"/>
-    </issue>
-
-    <issue
-        id="Autofill"
-        message="Missing `autofillHints` attribute"
-        errorLine1="  &lt;EditText"
-        errorLine2="   ~~~~~~~~">
-        <location
-            file="src/main/res/layout/training_edit_text.xml"
-            line="7"
-            column="4"/>
-    </issue>
-
-    <issue
         id="ViewConstructor"
         message="Custom view `ConnectionDeviceActionButtonView` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`"
         errorLine1="public class ConnectionDeviceActionButtonView extends LinearLayout {"
@@ -23508,17 +23006,6 @@
         <location
             file="src/main/java/com/google/android/accessibility/talkback/directtouch/DirectTouchSettings.kt"
             line="97"
-            column="18"/>
-    </issue>
-
-    <issue
-        id="UseKtx"
-        message="Use the KTX extension function `SharedPreferences.edit` instead?"
-        errorLine1="    val editor = prefs.edit()"
-        errorLine2="                 ~~~~~~~~~~~~">
-        <location
-            file="src/main/java/com/google/android/accessibility/talkback/directtouch/DirectTouchSettings.kt"
-            line="135"
             column="18"/>
     </issue>
 
@@ -24180,17 +23667,6 @@
             file="src/phone/res/layout/auto_scroll_slider.xml"
             line="52"
             column="11"/>
-    </issue>
-
-    <issue
-        id="LabelFor"
-        message="Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
-        errorLine1="  &lt;EditText"
-        errorLine2="   ~~~~~~~~">
-        <location
-            file="src/main/res/layout/training_edit_text.xml"
-            line="7"
-            column="4"/>
     </issue>
 
     <issue
@@ -26055,256 +25531,487 @@
 
 
     <issue
-        id="MissingTranslation"
-        message="&quot;title_pref_notification_list&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;title_pref_notification_list&quot;>Use Backtalk\'s notification list&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="NewApi"
+        message="Call requires API level 34 (current min is 30): `MotionEventController`"
+        errorLine1="          new MotionEventController(this, pipeline.getFeedbackReturner(), getFeedbackController());"
+        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="821"
-            column="13"/>
+            file="src/wear/java/com/google/android/marvin/talkback/TalkBackService.java"
+            line="62"
+            column="11"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_title&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_title&quot;>Notifications&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="NewApi"
+        message="Call requires API level 34 (current min is 30): `shutdown`"
+        errorLine1="      motionEventController.shutdown();"
+        errorLine2="                            ~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="823"
-            column="13"/>
+            file="src/wear/java/com/google/android/marvin/talkback/TalkBackService.java"
+            line="79"
+            column="29"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_empty&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_empty&quot;>No notifications&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="NewApi"
+        message="Call requires API level 34 (current min is 30): `onMotionEvent`"
+        errorLine1="      motionEventController.onMotionEvent(event);"
+        errorLine2="                            ~~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="825"
-            column="13"/>
+            file="src/wear/java/com/google/android/marvin/talkback/TalkBackService.java"
+            line="127"
+            column="29"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_no_access&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_no_access&quot;>Notification access is off&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="NewApi"
+        message="Call requires API level 34 (current min is 30): `dump`"
+        errorLine1="      motionEventController.dump(dumpLogger);"
+        errorLine2="                            ~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="827"
-            column="13"/>
+            file="src/wear/java/com/google/android/marvin/talkback/TalkBackService.java"
+            line="189"
+            column="29"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_grant_access&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_grant_access&quot;>Turn on notification access&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="WearStandaloneAppFlag"
+        message="Missing `&lt;meta-data android:name=&quot;com.google.android.wearable.standalone&quot; ../>` element"
+        errorLine1="    &lt;application>"
+        errorLine2="     ~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="829"
-            column="13"/>
+            file="src/wear/AndroidManifest.xml"
+            line="21"
+            column="6"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_quick_settings&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_quick_settings&quot;>Quick settings&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="        TypedArrayUtils.getBoolean("
+        errorLine2="                        ~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="831"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeCheckBoxPreference.kt"
+            line="53"
+            column="25"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_dismiss&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_dismiss&quot;>Dismiss&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="          R.styleable.ComposePreference_splitSummary,"
+        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="833"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeCheckBoxPreference.kt"
+            line="55"
+            column="11"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_clear_all&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_clear_all&quot;>Clear all&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="          /* fallbackIndex= */ 0,"
+        errorLine2="                               ~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="835"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeCheckBoxPreference.kt"
+            line="56"
+            column="32"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_send&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_send&quot;>Send&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="                      performClick()"
+        errorLine2="                      ~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="837"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeCheckBoxPreference.kt"
+            line="77"
+            column="23"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_playing&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_playing&quot;>Playing&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="              onCheckedChange = { performClick() },"
+        errorLine2="                                  ~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="843"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeCheckBoxPreference.kt"
+            line="86"
+            column="35"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_paused&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_paused&quot;>Paused&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="            onCheckedChange = { performClick() },"
+        errorLine2="                                ~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="845"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeCheckBoxPreference.kt"
+            line="97"
+            column="33"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_group_count&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;plurals name=&quot;notification_list_group_count&quot;>"
-        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getResourceId can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="      TypedArrayUtils.getResourceId("
+        errorLine2="                      ~~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="847"
-            column="14"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="47"
+            column="23"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_play&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_play&quot;>Play&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getResourceId can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="        R.styleable.DialogPreference_android_dialogIcon,"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="843"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="49"
+            column="9"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_pause&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_pause&quot;>Pause&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getResourceId can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="        R.styleable.DialogPreference_dialogIcon,"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="845"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="50"
+            column="9"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_previous&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_previous&quot;>Previous&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getResourceId can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="        /* defaultValue= */ 0,"
+        errorLine2="                            ~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="847"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="51"
+            column="29"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_list_next&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_list_next&quot;>Next&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getString can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="      TypedArrayUtils.getString("
+        errorLine2="                      ~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="849"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="63"
+            column="23"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;title_pref_notification_parts&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;title_pref_notification_parts&quot;>Notification details&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getString can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="        R.styleable.ComposeDialogPreference_edgeButtonText,"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="823"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="65"
+            column="9"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_part_title&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_part_title&quot;>Title&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getString can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="        /* fallbackIndex= */ 0,"
+        errorLine2="                             ~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="825"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="66"
+            column="30"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_part_text&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_part_text&quot;>Text&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="      TypedArrayUtils.getBoolean("
+        errorLine2="                      ~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="827"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="69"
+            column="23"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_part_app&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_part_app&quot;>App name&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="        R.styleable.ComposeDialogPreference_disableOnDisplayPreferenceDialog,"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="829"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="71"
+            column="9"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_part_time&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_part_time&quot;>Time&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="        /* fallbackIndex= */ 0,"
+        errorLine2="                             ~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="831"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="72"
+            column="30"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;notification_part_playback&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;notification_part_playback&quot;>Playing or paused&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="              performClick()"
+        errorLine2="              ~~~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="833"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeDialogPreference.kt"
+            line="96"
+            column="15"/>
     </issue>
 
     <issue
-        id="MissingTranslation"
-        message="&quot;shortcut_system_notifications&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;lo&quot; (Lao), &quot;pt&quot; (Portuguese), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;hy&quot; (Armenian), &quot;uk&quot; (Ukrainian), &quot;id&quot; (Indonesian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;mn&quot; (Mongolian), &quot;af&quot; (Afrikaans), &quot;in&quot; (Indonesian), &quot;mr&quot; (Marathi), &quot;uz&quot; (Uzbek), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;am&quot; (Amharic), &quot;my&quot; (Burmese), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;et&quot; (Estonian), &quot;eu&quot; (Basque), &quot;ar&quot; (Arabic), &quot;as&quot; (Assamese), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;zu&quot; (Zulu), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch), &quot;no&quot; (Norwegian), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;bg&quot; (Bulgarian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;bs&quot; (Bosnian), &quot;ka&quot; (Georgian), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;sq&quot; (Albanian), &quot;sr&quot; (Serbian), &quot;kk&quot; (Kazakh), &quot;km&quot; (Khmer), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;ko&quot; (Korean), &quot;sw&quot; (Swahili), &quot;gl&quot; (Galician), &quot;ta&quot; (Tamil), &quot;gu&quot; (Gujarati), &quot;ky&quot; (Kyrgyz), &quot;cs&quot; (Czech), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;tl&quot; (Tagalog), &quot;pl&quot; (Polish), &quot;da&quot; (Danish), &quot;tr&quot; (Turkish)"
-        errorLine1="    &lt;string name=&quot;shortcut_system_notifications&quot;>System notification shade&lt;/string>"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="        TypedArrayUtils.getBoolean("
+        errorLine2="                        ~~~~~~~~~~">
         <location
-            file="src/main/res/values/strings.xml"
-            line="1878"
-            column="13"/>
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposePreference.kt"
+            line="54"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="          R.styleable.ComposePreference_splitSummary,"
+        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposePreference.kt"
+            line="56"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="          /* fallbackIndex= */ 0,"
+        errorLine2="                               ~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposePreference.kt"
+            line="57"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="                    performClick()"
+        errorLine2="                    ~~~~~~~~~~~~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposePreference.kt"
+            line="73"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="              onClick = { performClick() },"
+        errorLine2="                          ~~~~~~~~~~~~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposePreference.kt"
+            line="81"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="            onClick = { performClick() },"
+        errorLine2="                        ~~~~~~~~~~~~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposePreference.kt"
+            line="97"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="          onSelect = { performClick() },"
+        errorLine2="                       ~~~~~~~~~~~~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeRadioPreference.kt"
+            line="51"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="        TypedArrayUtils.getBoolean("
+        errorLine2="                        ~~~~~~~~~~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeSwitchPreference.kt"
+            line="57"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="          R.styleable.ComposePreference_splitSummary,"
+        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeSwitchPreference.kt"
+            line="59"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TypedArrayUtils.getBoolean can only be called from within the same library group prefix (referenced groupId=`androidx.core` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="          /* fallbackIndex= */ 0,"
+        errorLine2="                               ~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeSwitchPreference.kt"
+            line="60"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="                      performClick()"
+        errorLine2="                      ~~~~~~~~~~~~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeSwitchPreference.kt"
+            line="81"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="              onCheckedChange = { performClick() },"
+        errorLine2="                                  ~~~~~~~~~~~~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeSwitchPreference.kt"
+            line="90"
+            column="35"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Preference.performClick can only be called from within the same library group prefix (referenced groupId=`androidx.preference` with prefix androidx from groupId=`backtalk`)"
+        errorLine1="            onCheckedChange = { performClick() },"
+        errorLine2="                                ~~~~~~~~~~~~">
+        <location
+            file="src/wear/java/com/google/android/accessibility/material/preference/compose/ComposeSwitchPreference.kt"
+            line="109"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
+        errorLine1="  &lt;plurals name=&quot;template_containers&quot;>"
+        errorLine2="  ^">
+        <location
+            file="src/main/res/values-iw/strings_compositor.xml"
+            line="35"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
+        errorLine1="  &lt;plurals name=&quot;template_list_total_count&quot;>"
+        errorLine2="  ^">
+        <location
+            file="src/main/res/values-iw/strings_compositor.xml"
+            line="150"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
+        errorLine1="  &lt;plurals name=&quot;template_list_row_count&quot;>"
+        errorLine2="  ^">
+        <location
+            file="src/main/res/values-iw/strings_compositor.xml"
+            line="155"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
+        errorLine1="  &lt;plurals name=&quot;template_list_column_count&quot;>"
+        errorLine2="  ^">
+        <location
+            file="src/main/res/values-iw/strings_compositor.xml"
+            line="160"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
+        errorLine1="  &lt;plurals name=&quot;template_list_item_count&quot;>"
+        errorLine2="  ^">
+        <location
+            file="src/main/res/values-iw/strings_compositor.xml"
+            line="165"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
+        errorLine1="  &lt;plurals name=&quot;template_password_character_count&quot;>"
+        errorLine2="  ^">
+        <location
+            file="src/main/res/values-iw/strings_compositor.xml"
+            line="170"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="WearPasswordInput"
+        message="Don&apos;t ask Wear OS users for a password"
+        errorLine1="        InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD,"
+        errorLine2="                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/google/android/accessibility/talkback/actor/gemini/AiServicePreference.kt"
+            line="82"
+            column="48"/>
+    </issue>
+
+    <issue
+        id="WearPasswordInput"
+        message="Don&apos;t ask Wear OS users for a password"
+        errorLine1="        inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD"
+        errorLine2="                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/google/android/accessibility/talkback/actor/gemini/GeminiApiKeyPreference.kt"
+            line="71"
+            column="60"/>
+    </issue>
+
+    <issue
+        id="WearPasswordInput"
+        message="Don&apos;t ask Wear OS users for a password"
+        errorLine1="        inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD"
+        errorLine2="                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/google/android/accessibility/talkback/actor/gemini/GeminiApiKeyPreference.kt"
+            line="71"
+            column="60"/>
     </issue>
 
 </issues>

@@ -69,6 +69,9 @@
         <ignore regexp="individual_sound_direct_touch_exit" />
         <ignore regexp="individual_sound_wrap_forward" />
         <ignore regexp="individual_sound_wrap_back" />
+        <ignore regexp="individual_sound_actions_available" />
+        <ignore regexp="title_pref_actions_sound_timing" />
+        <ignore regexp="value_actions_sound_timing_" />
         <ignore regexp="theme_sound_none" />
         <ignore regexp="theme_sound_summary_no_sound" />
         <ignore regexp="theme_sound_action_set_none" />
@@ -138,6 +141,8 @@
         <ignore regexp="notification_list_next" />
         <ignore regexp="notification_list_group_count" />
         <ignore regexp="shortcut_system_notifications" />
+        <ignore regexp="image_qna_button_text_ai" />
+        <ignore regexp="image_qna_typing_button_text_ai" />
     </issue>
     <!--
       R8 minifies the published builds, but their resources aren't shrunk, since the compositor,

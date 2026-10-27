@@ -72,6 +72,8 @@ When you touched an empty part of the screen, TalkBack waited 100 ms after the f
 
 After a window changes, TalkBack waits for the window to settle before it says the title. TalkBack counted that wait in a way that made 550 ms last about 900 ms. Backtalk counts the real time.
 
+When the screen turns on, the app in front is busy drawing again. TalkBack asked it for the last focused item to put focus back, and stopped everything else until the app answered, for up to 300 ms on a watch. Backtalk asks in the background and puts focus back once the app answers, or after half a second at most.
+
 The **Turn off animations** setting in **Controls** > **Touch and activation** > **Reduce delay** turns off animations for the whole phone, so screens change immediately and the wait is only 200 ms. TalkBack called this setting **Reduce window announcement delay**, and had disabled the code that turns animations off, so the setting did nothing. Backtalk makes the setting work, and turns animations back on when you turn Backtalk off. On Android 12 and earlier, which don't let Backtalk turn animations off, the setting only shortens the wait. The setting is on by default.
 
 When you activated an item, or pressed a key, while the item was being spoken or just after, TalkBack still spoke its usage hint, such as "Double-tap to activate", and the name of the new window waited for the hint. Backtalk drops the hint.
@@ -224,6 +226,8 @@ TalkBack marked its notices that it was updated, or that gestures changed, as on
 **Sound and vibration** > **Audio output device** chooses where Backtalk's speech and sounds play. **System default** follows Android. **Phone speaker** plays on the phone's speaker even when Bluetooth is connected, and you can also choose a connected Bluetooth, wired, USB, or hearing aid device by name.
 
 Backtalk keeps your choice when devices connect or disconnect, or when other apps start playing. If the device that you chose isn't connected, Backtalk uses another external device, and the setting shows "(disconnected)" next to the device name. During phone calls, Android decides where audio plays.
+
+To switch quickly, add **Audio output device** in **Reading controls**. Swiping up or down with it goes through **System default**, **Phone speaker** and each connected device, and changes the same setting.
 
 ### Accessibility volume on Bluetooth headphones
 

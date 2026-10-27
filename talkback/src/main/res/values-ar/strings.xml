@@ -59,8 +59,6 @@
   <string name="search_mode_cancel">تم إلغاء البحث.</string>
   <string name="notification_type_status_started">تم البدء</string>
   <string name="notification_type_status_stopped">تم الإيقاف</string>
-  <string name="notification_type_status_connected">متصل</string>
-  <string name="notification_battery_level_unknown">غير معروف</string>
   <string name="notification_battery_saver_mode">ميزة \"توفير شحن البطارية\" مفعَّلة</string>
   <string name="template_no_text_selected">لم يتم اختيار نص</string>
   <string name="template_charging">الشحن %1$s مستوى البطارية %2$s في المئة.</string>
@@ -71,7 +69,6 @@
   <string name="template_battery_level">البطارية %1$s بالمئة</string>
   <string name="template_battery_level_unknown">مستوى البطارية غير معروف</string>
   <string name="value_charger_connected">تم توصيل الشاحن</string>
-  <string name="template_battery_state">الجهاز %1$s بمصدر الطاقة، ونسبة شحن البطارية %2$s في المئة، و%3$s</string>
   <string name="template_language_options_menu_item">%1$s (%2$s)</string>
   <string name="value_ringer_vibrate">رنين مع الاهتزاز.</string>
   <string name="value_ringer_silent">رنين صامت.</string>
@@ -155,14 +152,9 @@
   <string name="pref_speak_time_title">قول الوقت بصوت عالٍ</string>
   <string name="pref_speak_time_summary">عند تفعيل الشاشة</string>
   <string name="summary_speak_container_element_positions">يشمل ذلك المعلومات أثناء الدخول والخروج من القوائم والشبكات والحاويات الأخرى</string>
-  <string name="confirm_focus_delay_reading_control_added_dialog_title">تمّت إضافة وقت الاستجابة للتركيز إلى إعداد التحكّم في القراءة</string>
-  <string name="confirm_focus_delay_reading_control_added_dialog_message">يُرجى التمرير سريعًا باستخدام 3 أصابع للتحكّم في القراءة وتغيير مهلة الاستجابة للتركيز في أي وقت</string>
   <string name="confirm_the_typing_focus_delay_reduction_dialog_title">هل أردت التبديل إلى ميزة \"رفع الإصبع للكتابة\"؟</string>
   <string name="message_of_typing_focus_delay_reduction_confirm_dialog">‏عند ضبط وقت الاستجابة للتركيز على الكتابة على قيمة أقل من ٠,٣ ثانية، سيكون من الصعب جدًا النقر مرّتين للكتابة. ويمكنك اختيار \"تبديل\" للتبديل تلقائيًا إلى ميزة \"رفع الإصبع للكتابة\".\n\nلاستخدام هذه الميزة، يُرجى الضغط بإصبعك مع الاستمرار لاختيار أي مفتاح، ثم رفع إصبعك عنه للكتابة.\n\nيمكنك تخصيص هذه الميزة في إعدادات TalkBack.</string>
-  <string name="confirm_typing_focus_delay_reading_control_added_dialog_title">تمّت إضافة وقت الاستجابة للتركيز على الكتابة إلى إعداد التحكّم في القراءة</string>
-  <string name="confirm_typing_focus_delay_reading_control_added_dialog_message">إذا واجهت مشاكل في النقر مرّتين أثناء الكتابة، يمكنك التمرير سريعًا باستخدام ٣ أصابع للاستفادة من إعداد التحكّم في القراءة والتغيير إلى وقت استجابة أطول للتركيز على الكتابة</string>
   <string name="gestures_announce_typing_focus_wont_change">إنّ وقت الاستجابة للتركيز على الكتابة لا يعمل بدون تفعيل ميزة \"رفع الإصبع للكتابة\".</string>
-  <string name="confirm_latency_reduction_reading_control_added_dialog_positive_button">حسنًا</string>
   <string name="reset_letency_reduction_settings_dialog_title">هل أردت إعادة ضبط إعدادات وقت الاستجابة؟</string>
   <string name="message_reset_letency_reduction_settings_confirm_dialog">سيؤدي هذا الإجراء إلى إعادة ضبط جميع إعدادات وقت الاستجابة على الإعدادات التلقائية</string>
   <string name="reset_button_in_reset_letency_reduction_settings_confirm_dialog">إعادة الضبط</string>
@@ -215,8 +207,6 @@
   <string name="pref_category_selector_menu_summary_single_finger">لاستخدام عناصر التحكّم في القراءة، مرِّر سريعًا للأعلى ثم للأسفل.</string>
   <string name="title_pref_manage_keyboard_shortcuts">اختصارات لوحة المفاتيح</string>
   <string name="title_pref_export_custom_labels">تصدير فئات مخصصة</string>
-  <string name="title_pref_play_store">‏فتح TalkBack في \"متجر Play\"</string>
-  <string name="summary_pref_play_store">‏إصدار TalkBack الحالي: %1$s</string>
   <string name="title_pref_help_and_feedback">المساعدة والملاحظات</string>
   <string name="title_pref_gup">‏التواصل مع فريق الدعم في Google المخصّص لذوي الاحتياجات الخاصة</string>
   <string name="subtitle_pref_gup">‏الحصول على المساعدة بشأن استخدام ميزة TalkBack أو الإبلاغ عن المشاكل</string>
@@ -756,7 +746,6 @@
   <string name="summary_cache_keyboard_keys">‏تحمّل ميزة TalkBack مسبقًا قراءات أسماء المفاتيح لتقليل مدة الاستجابة أثناء الكتابة</string>
   <string name="summary_cache_keyboard_keys_disabled">‏يجب استخدام ميزة \"تحويل النص إلى كلام\" من Google لاستخدام هذه الميزة</string>
   <string name="value_direction_down">لأسفل</string>
-  <string name="value_direction_down_and_right">لأسفل ثم لليسار</string>
   <string name="title_pref_shortcut_up">التمرير للأعلى</string>
   <string name="title_pref_shortcut_up_xr">توجيه راحة اليد الثانوية للداخل والتصغير/التكبير بإصبعين مع التمرير السريع للأعلى</string>
   <string name="title_pref_shortcut_down">التمرير للأسفل</string>
@@ -1080,8 +1069,6 @@
   <string name="typing_echo_change">%1$s مستوى صدى لوحة المفاتيح الخارجية</string>
   <string name="reading_control_toggle_prefix_xr">عليك توجيه راحة يدك الثانوية للداخل ثم الضغط مع الاستمرار لتفعيل وضع \"التحكّم في القراءة\" أو إيقافه.</string>
   <string name="gesture_1_or_2">%1$s أو %2$s</string>
-  <string name="select_setting_hint">%1$s لاختيار إعداد مختلف</string>
-  <string name="adjust_setting_hint">%1$s لتعديل الإعداد</string>
   <string name="adjust_granularity_hint">%1$s لقراءة %2$s</string>
   <string name="adjust_typo_hint">يمكنك %1$s للحصول على اقتراحات.</string>
   <string name="use_action_hint">انقر مرّتين لتنفيذ الإجراء.</string>
@@ -1403,8 +1390,6 @@
   <string name="wear_training_typing_text5">يمكن تجربة الميزة أدناه.</string>
   <string name="wear_training_typing_practice_button_content_description">الكتابة باستخدام لوحة المفاتيح</string>
   <string name="wear_training_end_tutorial_title">‏يمكنك الآن البدء باستخدام ميزة TalkBack</string>
-  <string name="talkback_updated_notification_title">‏تم تحديث TalkBack</string>
-  <string name="talkback_updated_notification_content">انقر للاطّلاع على مزيد من المعلومات.</string>
   <string name="wear_new_feature_page_title">‏مرحبًا بك في الإصدار المحدَّث من TalkBack</string>
   <string name="wear_new_feature_page_content">ستلاحظ بعض إصلاحات الأخطاء والتغييرات في كيفية نقل التركيز.</string>
   <string name="wear_new_feature_page_button_content_description">إنهاء</string>
