@@ -193,10 +193,22 @@ public class TouchInteractionMonitor
   private final TwoFingerRotationTracker rotationTracker;
   // The edge that the current touch started on, if edge gestures are on, or null.
   private @Nullable Edge touchEdge;
-  // The hidden menu of an edge, which owns the touch from when the finger slides off the edge.
+  // The hidden menu of an edge, which owns the touch from when the finger slides toward the middle.
   private final EdgeMenu edgeMenu;
-  private final float edgeWidthPixels;
+  // The finger rests on an edge with a menu. Touch exploration would stop the motion events the
+  // menu needs, so this monitor keeps the touch until the finger slides inward or along the edge.
+  private boolean edgeRested = false;
+  // Where the finger rested on the edge, and how many fingers went down in this interaction.
+  private float edgeRestX;
+  private float edgeRestY;
+  private float lastTouchX;
+  private float lastTouchY;
+  private int downsInInteraction = 0;
+  // Read again on each touch, as the user may change it.
+  private float edgeWidthPixels;
+  private final float pixelsPerCm;
   private final float edgeMenuMaxStepPixels;
+  private final float edgeMenuStartPixels;
   // A double tap on an edge whose triple tap has an action waits for a third tap. While it waits,
   // the double tap is kept here and a third tap close to it is taken by this monitor.
   private static final int THIRD_TAP_NONE = 0;
@@ -470,10 +482,10 @@ public class TouchInteractionMonitor
             + SWIPE_START_MARGIN_MS;
     DisplayMetrics metrics = context.getResources().getDisplayMetrics();
     edgeSwipeHeightPixels = metrics.ydpi / GestureUtils.CM_PER_INCH * EDGE_SWIPE_HEIGHT_CM;
-    edgeWidthPixels =
-        metrics.xdpi / GestureUtils.CM_PER_INCH * EdgeGestureSettings.EDGE_WIDTH_CM;
-    edgeMenuMaxStepPixels =
-        metrics.xdpi / GestureUtils.CM_PER_INCH * EdgeGestureSettings.MAX_MENU_STEP_CM;
+    pixelsPerCm = metrics.xdpi / GestureUtils.CM_PER_INCH;
+    edgeWidthPixels = pixelsPerCm * EdgeGestureSettings.widthCm(prefs);
+    edgeMenuMaxStepPixels = pixelsPerCm * EdgeGestureSettings.MAX_MENU_STEP_CM;
+    edgeMenuStartPixels = pixelsPerCm * EdgeGestureSettings.MENU_START_CM;
 
     LogUtils.v(LOG_TAG, "Touch Slop: %s", touchSlop);
     previousState = STATE_CLEAR;
@@ -516,6 +528,7 @@ public class TouchInteractionMonitor
     mainHandler.removeCallbacks(pendingDoubleTapTimeout);
     thirdTapState = THIRD_TAP_NONE;
     edgeMenu.clear();
+    edgeRested = false;
     context.unregisterComponentCallbacks(this);
     if (typingFocusTimeout || touchFocusTimeout) {
       sharedPreferences.unregisterOnSharedPreferenceChangeListener(sharedPreferenceChangeListener);
@@ -813,6 +826,7 @@ public class TouchInteractionMonitor
 
   private void clear() {
     gestureStarted = false;
+    downsInInteraction = 0;
     clearGestureDetectorOnNextDown = false;
     rotationTracker.clear();
     stateChangeRequested = false;
@@ -1273,19 +1287,25 @@ public class TouchInteractionMonitor
   }
 
   /**
-   * Notes the edge that a touch starts on, and passes the touch to the edge's menu once the finger
-   * has rested on the edge, so that touch exploration started, and then slid off it toward the
-   * middle. A quick swipe off the edge stays a swipe, since touch exploration hasn't started then.
-   * Returns true if the event belongs to the menu, so nothing else may handle it.
+   * Passes the touch to the edge menu once the finger has rested on the edge and slid inward. A
+   * quick swipe off the edge doesn't rest, so it stays a swipe. Returns true if the event belongs
+   * to the menu or to the resting finger.
    */
   private boolean handleEdgeMenu(MotionEvent event) {
     int action = event.getActionMasked();
     if (action == ACTION_DOWN) {
       edgeMenu.clear();
+      edgeRested = false;
+      downsInInteraction++;
+      edgeWidthPixels = pixelsPerCm * EdgeGestureSettings.widthCm(sharedPreferences);
       touchEdge =
           EdgeGestureSettings.isEnabled(sharedPreferences)
               ? EdgeGestureSettings.edgeAt(event.getX(), screenWidth(), edgeWidthPixels)
               : null;
+    }
+    lastTouchX = event.getX();
+    lastTouchY = event.getY();
+    if (action == ACTION_DOWN) {
       return false;
     }
     if (edgeMenu.isOpen()) {
@@ -1298,29 +1318,69 @@ public class TouchInteractionMonitor
       }
       return true;
     }
-    if (touchEdge == null
-        || state != STATE_TOUCH_EXPLORING
-        || action != ACTION_MOVE
-        || event.getPointerCount() != 1) {
+    if (!edgeRested || touchEdge == null) {
       return false;
     }
-    if (!edgeMenu.open(
-        touchEdge,
-        event.getX(),
-        EdgeGestureSettings.menuActions(sharedPreferences, touchEdge, unassignedAction()),
-        screenWidth(),
-        edgeWidthPixels,
-        edgeMenuMaxStepPixels)) {
+    switch (action) {
+      case ACTION_MOVE -> {
+        if (edgeMenu.open(
+            touchEdge,
+            event.getX(),
+            EdgeGestureSettings.menuActions(sharedPreferences, touchEdge, unassignedAction()),
+            screenWidth(),
+            edgeWidthPixels,
+            edgeRestX,
+            edgeMenuStartPixels,
+            edgeMenuMaxStepPixels)) {
+          edgeRested = false;
+          if (LogUtils.shouldLog(Log.DEBUG)) {
+            Log.d(DEBUG_GESTURE_TAG, "Edge menu opened on " + touchEdge);
+          }
+        } else if (Math.abs(event.getY() - edgeRestY) > 2 * tapSlop) {
+          // The finger explores along the edge, so the items there are explored as anywhere else.
+          edgeRested = false;
+          requestTouchExploration("edgeExplore");
+        }
+      }
+      case ACTION_POINTER_DOWN -> {
+        // A second finger landed: the touch is handled as anywhere else, as a scroll or a drag.
+        edgeRested = false;
+        return false;
+      }
+      // Lifted on the edge, which does nothing.
+      case ACTION_UP, ACTION_CANCEL -> edgeRested = false;
+      default -> {}
+    }
+    return true;
+  }
+
+  /**
+   * Keeps a finger resting on an edge with a menu from starting touch exploration, which would stop
+   * the motion events the menu needs. Returns true if it did.
+   */
+  private boolean restOnEdge() {
+    if (touchEdge == null
+        || state != STATE_TOUCH_INTERACTING
+        || !fingerDown
+        || downsInInteraction != 1
+        || receivedPointerTracker.getReceivedPointerDownCount() != 1
+        || EdgeGestureSettings.edgeAt(lastTouchX, screenWidth(), edgeWidthPixels) != touchEdge
+        || EdgeGestureSettings.menuActions(sharedPreferences, touchEdge, unassignedAction())
+            .isEmpty()) {
       return false;
     }
     if (LogUtils.shouldLog(Log.DEBUG)) {
-      Log.d(DEBUG_GESTURE_TAG, "Edge menu opened on " + touchEdge);
+      Log.d(DEBUG_GESTURE_TAG, "Finger rests on " + touchEdge);
     }
+    edgeRested = true;
+    edgeRestX = lastTouchX;
+    edgeRestY = lastTouchY;
     requestTouchExplorationDelayed.cancel();
     gestureDetector.clear();
     // The matchers miss the rest of this touch, so a new touch in this interaction starts them
     // over.
     clearGestureDetectorOnNextDown = true;
+    mainHandler.post(service::onEdgeMenuReady);
     return true;
   }
 
@@ -1466,6 +1526,9 @@ public class TouchInteractionMonitor
           && state == STATE_TOUCH_INTERACTING) {
         keepMonitorTouchExplore = false;
         requestTouchExplorationDelayed.cancel();
+        if (restOnEdge()) {
+          return;
+        }
         requestTouchExploration("onGestureCancelled");
       }
     }
@@ -1732,6 +1795,9 @@ public class TouchInteractionMonitor
 
     @Override
     public void run() {
+      if (restOnEdge()) {
+        return;
+      }
       if (timerAction != null) {
         primesController.recordDuration(timerAction, startTime, SystemClock.uptimeMillis());
       }

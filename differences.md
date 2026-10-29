@@ -336,11 +336,13 @@ The rotor requires Android 13 or later and **Handle gestures in Backtalk** turne
 
 ### Edge gestures
 
-The left and right edges of the screen can each have actions of their own. To set them up, go to gesture settings, turn on **Edge gestures**, and open **Left edge** or **Right edge**. Each edge is a strip 0.5 cm wide.
+The left and right edges of the screen can each have actions of their own. To set them up, go to gesture settings, turn on **Edge gestures**, and open **Left edge** or **Right edge**. Each edge is a strip 1 cm wide. To change that, move the **Edge width** slider, from 0.5 cm to 2 cm in steps of 0.25 cm.
 
-Each edge has a hidden menu of up to 10 actions. Rest a finger on the edge until you hear the item there, then slide it toward the middle of the screen without lifting it. Backtalk says the first item of the menu as soon as your finger leaves the edge, and each next item as you slide further. Lift your finger to perform the item you're on, or slide back onto the edge and lift to cancel. The steps between items are 1 cm wide, or narrower when that many items wouldn't fit across the screen. Menu items without an action are left out, so the menu has as many items as you have chosen.
+Each edge has a hidden menu of up to 10 actions. Rest a finger on the edge until you hear the menu sound, then slide it toward the middle of the screen without lifting it. Backtalk says the first item of the menu once your finger has slid 0.5 cm from where it rested, however wide the edge is, and each next item as you slide further. Lift your finger to perform the item you're on, or slide back to where it rested and lift to cancel. The steps between items are 1 cm wide, or narrower when that many items wouldn't fit across the screen.
 
-Touching an edge still says the item under your finger, double-tapping it still activates the item, and a quick swipe from the edge that doesn't rest on it first is still an ordinary swipe. Exploring along the edge, up or down, doesn't open the menu either.
+To add an item to the menu, choose **Add to edge menu**, after the gestures of the edge, and choose its action. The items you have added are listed after the gestures, in their order, above **Add to edge menu**. Each item has the actions **Move up**, **Move down**, and **Remove**, and tapping it lists them too, with **Change action**.
+
+The menu sound replaces exploring by touch while your finger rests on an edge that has a menu, because Android stops telling Backtalk where the finger is once exploring starts. To explore the items on that edge, slide your finger along it, up or down, and Backtalk explores as anywhere else. Lifting your finger on the edge after the menu sound does nothing. Double-tapping the edge still activates the focused item, and a quick swipe from the edge that doesn't rest on it first is still an ordinary swipe. An edge without menu items is explored as before.
 
 You can also give **Swipe up**, **Swipe down**, and **Triple-tap** with one finger an action of their own on each edge. These replace the gesture's usual action only when it starts on that edge; a gesture without an action on the edge does what it does elsewhere. While an edge has a triple tap, a double tap on that edge waits for the time between taps before it activates the item, in case a third tap follows.
 

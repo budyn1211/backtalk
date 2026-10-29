@@ -126,6 +126,10 @@
         android:key="pref_edge_gestures"
         android:summary="@string/summary_pref_edge_gestures"
         android:title="@string/title_pref_edge_gestures" />
+    <com.google.android.accessibility.talkback.preference.base.EdgeWidthPreference
+        android:dependency="pref_edge_gestures"
+        android:key="pref_edge_width"
+        android:title="@string/title_pref_edge_width" />
     <com.google.android.accessibility.material.preference.AccessibilitySuitePreference
         android:dependency="pref_edge_gestures"
         android:fragment="com.google.android.accessibility.talkback.preference.base.LeftEdgeGesturesFragment"

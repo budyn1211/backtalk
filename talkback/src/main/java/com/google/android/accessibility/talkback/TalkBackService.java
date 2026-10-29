@@ -1632,6 +1632,21 @@ public class TalkBackService extends AccessibilityServiceCompat
                 .sound(R.raw.focus_actionable));
   }
 
+  /**
+   * Tells the user that the finger rests on an edge with a menu, so sliding it toward the middle
+   * opens the menu.
+   */
+  public void onEdgeMenuReady() {
+    if (!isServiceActive() || PauseController.isPaused() || pipeline == null) {
+      return;
+    }
+    pipeline
+        .getFeedbackReturner()
+        .returnFeedback(
+            EVENT_ID_UNTRACKED,
+            Feedback.sound(R.raw.radial_menu_1).vibration(R.array.view_clicked_pattern));
+  }
+
   /** Performs the action of an edge gesture, or of the edge menu item that the finger lifted on. */
   public void performEdgeAction(String action) {
     if (!isServiceActive() || PauseController.isPaused() || gestureController == null) {

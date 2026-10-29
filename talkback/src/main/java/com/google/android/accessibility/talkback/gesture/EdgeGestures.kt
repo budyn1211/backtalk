@@ -34,18 +34,35 @@ enum class EdgeGesture(internal val prefName: String) {
 }
 
 /**
- * The edge gesture settings. Each edge has its own actions for [EdgeGesture]s, and a hidden menu of
- * up to [MAX_MENU_ITEMS] actions, which the user reaches by resting a finger on the edge and sliding
- * it toward the middle of the screen. A gesture or menu item without an action leaves the touch as
- * it would be anywhere else.
+ * The edge gesture settings. Each edge has actions for [EdgeGesture]s and a hidden menu of up to
+ * [MAX_MENU_ITEMS] actions. A gesture without an action does what it does anywhere else.
  */
 object EdgeGestureSettings {
   const val PREF_ENABLED = "pref_edge_gestures"
   const val MAX_MENU_ITEMS = 10
 
-  // The width of each edge, and the furthest the finger moves from one menu item to the next.
-  const val EDGE_WIDTH_CM = 0.5f
+  // The width of each edge, chosen in quarters of a centimeter, from 0.5 to 2 cm.
+  const val PREF_WIDTH = "pref_edge_width"
+  const val MIN_WIDTH_QUARTERS = 2
+  const val MAX_WIDTH_QUARTERS = 8
+  const val DEFAULT_WIDTH_QUARTERS = 4
+
+  // The furthest the finger moves from one menu item to the next.
   const val MAX_MENU_STEP_CM = 1f
+
+  // How far the finger slides from where it rested to the first menu item.
+  const val MENU_START_CM = 0.5f
+
+  /** The width of each edge in centimeters. */
+  @JvmStatic
+  fun widthCm(prefs: SharedPreferences): Float = widthQuarters(prefs) / 4f
+
+  /** The width of each edge in quarters of a centimeter. */
+  @JvmStatic
+  fun widthQuarters(prefs: SharedPreferences): Int =
+    prefs
+      .getInt(PREF_WIDTH, DEFAULT_WIDTH_QUARTERS)
+      .coerceIn(MIN_WIDTH_QUARTERS, MAX_WIDTH_QUARTERS)
 
   /** The key of the action for [gesture] on [edge]. The settings screens use the same keys. */
   @JvmStatic
@@ -75,6 +92,34 @@ object EdgeGestureSettings {
       assigned(prefs.getString(menuItemKey(edge, it), null), unassigned)
     }
 
+  /**
+   * Stores [actions], at most [MAX_MENU_ITEMS] of them, as the menu of [edge] in this order, from
+   * position 1 with no gaps, and clears the positions after them.
+   */
+  @JvmStatic
+  fun setMenuActions(prefs: SharedPreferences, edge: Edge, actions: List<String>) {
+    val editor = prefs.edit()
+    for (position in 1..MAX_MENU_ITEMS) {
+      val action = actions.getOrNull(position - 1)
+      if (action == null) {
+        editor.remove(menuItemKey(edge, position))
+      } else {
+        editor.putString(menuItemKey(edge, position), action)
+      }
+    }
+    editor.apply()
+  }
+
+  /** Returns [actions] with the item at [index] moved by [by] places, if it can move that far. */
+  @JvmStatic
+  fun moved(actions: List<String>, index: Int, by: Int): List<String> {
+    val target = index + by
+    if (index !in actions.indices || target !in actions.indices) {
+      return actions
+    }
+    return actions.toMutableList().apply { add(target, removeAt(index)) }
+  }
+
   /** Returns the edge that [x] is on, or null if it is on neither. */
   @JvmStatic
   fun edgeAt(x: Float, screenWidth: Float, edgeWidth: Float): Edge? =
@@ -89,28 +134,39 @@ object EdgeGestureSettings {
 }
 
 /**
- * Works out which item of an edge menu a finger is on. The first item starts where the edge ends,
- * and each item after it is one step further toward the other side of the screen. The steps are
- * [maxStep] wide, or narrower when that many items would not fit before the other edge. While the
- * finger is back on the edge, it is on no item, which cancels the menu.
+ * Works out which item of an edge menu a finger is on. The first item starts [startDistance] inward
+ * from [restX], where the finger rested, whatever the edge width. Each next item is one step
+ * further, at most [maxStep], so that all of them fit before the other edge.
  */
 class EdgeMenuLayout(
   private val edge: Edge,
-  private val screenWidth: Float,
-  private val edgeWidth: Float,
+  screenWidth: Float,
+  edgeWidth: Float,
+  private val restX: Float,
+  private val startDistance: Float,
   maxStep: Float,
   private val itemCount: Int,
 ) {
-  val step: Float = min(maxStep, max(1f, screenWidth - 2 * edgeWidth) / max(1, itemCount))
+  val step: Float =
+    min(
+      maxStep,
+      max(1f, distancePastFirstItem(otherEdge(screenWidth, edgeWidth))) / max(1, itemCount),
+    )
 
-  /** Returns the index of the item at [x], or [NONE] while [x] is on the edge. */
+  /** Returns the index of the item at [x], or [NONE] while [x] is before the first item. */
   fun itemAt(x: Float): Int {
-    val inward = if (edge == Edge.LEFT) x - edgeWidth else screenWidth - edgeWidth - x
-    if (inward < 0) {
+    val distance = distancePastFirstItem(x)
+    if (distance < 0) {
       return NONE
     }
-    return min((inward / step).toInt(), itemCount - 1)
+    return min((distance / step).toInt(), itemCount - 1)
   }
+
+  private fun otherEdge(screenWidth: Float, edgeWidth: Float): Float =
+    if (edge == Edge.LEFT) screenWidth - edgeWidth else edgeWidth
+
+  private fun distancePastFirstItem(x: Float): Float =
+    (if (edge == Edge.LEFT) x - restX else restX - x) - startDistance
 
   companion object {
     const val NONE = -1
@@ -118,9 +174,9 @@ class EdgeMenuLayout(
 }
 
 /**
- * The hidden menu of an edge. It opens when a finger that rested on the edge slides off it toward
- * the middle, says each item as the finger reaches it, and performs the item that the finger lifts
- * on. Lifting on the edge, or after a second finger has landed, performs nothing.
+ * The hidden menu of an edge. It opens when a finger that rested on the edge slides from there
+ * toward the middle, says each item as the finger reaches it, and performs the item that the finger
+ * lifts on. Lifting before the first item, or after a second finger has landed, performs nothing.
  *
  * Once open, the menu owns the rest of the touch: [EdgeMenuTouch.isOwned] tells touch exploration
  * to leave the items under the finger alone, and not to activate the last one when the finger
@@ -133,7 +189,7 @@ class EdgeMenu(private val listener: Listener) {
     /** The finger reached the item with [action]. */
     fun onItemFocused(action: String)
 
-    /** The finger went back to the edge, so lifting it now performs nothing. */
+    /** The finger went back before the first item, so lifting it now performs nothing. */
     fun onCancelled()
 
     /** The finger lifted on the item with [action]. */
@@ -150,22 +206,22 @@ class EdgeMenu(private val listener: Listener) {
   val isOpen: Boolean
     get() = layout != null
 
-  /**
-   * Opens the menu of [edge], with [actions], if the finger at [x] has left the edge. Returns
-   * whether it opened.
-   */
+  /** Opens the menu of [edge] if the finger at [x] is on its first item. Returns whether it did. */
   fun open(
     edge: Edge,
     x: Float,
     actions: List<String>,
     screenWidth: Float,
     edgeWidth: Float,
+    restX: Float,
+    startDistance: Float,
     maxStep: Float,
   ): Boolean {
     if (actions.isEmpty()) {
       return false
     }
-    val newLayout = EdgeMenuLayout(edge, screenWidth, edgeWidth, maxStep, actions.size)
+    val newLayout =
+      EdgeMenuLayout(edge, screenWidth, edgeWidth, restX, startDistance, maxStep, actions.size)
     if (newLayout.itemAt(x) == EdgeMenuLayout.NONE) {
       return false
     }

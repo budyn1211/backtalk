@@ -44,6 +44,8 @@ import android.view.accessibility.AccessibilityNodeInfo
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat
 import com.google.android.accessibility.talkback.actor.DirectClick
 import com.google.android.accessibility.talkback.analytics.TalkBackAnalytics
+import com.google.android.accessibility.talkback.gesture.Edge
+import com.google.android.accessibility.talkback.gesture.EdgeGestureSettings
 import com.google.android.accessibility.utils.SharedPreferencesUtils
 import java.time.Duration
 import org.junit.After
@@ -81,6 +83,20 @@ class TouchInteractionMonitorTest {
 
     override fun onGestureDetectionStarted() {
       threads.add(Thread.currentThread())
+    }
+
+    val edgeEvents = mutableListOf<String>()
+
+    override fun onEdgeMenuReady() {
+      edgeEvents += "ready"
+    }
+
+    override fun onEdgeMenuItem(action: String?) {
+      edgeEvents += "item $action"
+    }
+
+    override fun performEdgeAction(action: String) {
+      edgeEvents += "perform $action"
     }
   }
 
@@ -478,5 +494,78 @@ class TouchInteractionMonitorTest {
     assertTrue(TouchInteractionMonitor.isFingerDown())
     assertFalse(monitor.isReadyForDirectClick())
     assertEquals(listOf<GestureDescription>(), pressGestures)
+  }
+
+  /** Turns edge gestures on, with [actions] in the menu of the left edge. */
+  private fun useLeftEdgeMenu(vararg actions: String) {
+    val prefs = SharedPreferencesUtils.getSharedPreferences(service)
+    prefs.edit().putBoolean(EdgeGestureSettings.PREF_ENABLED, true).commit()
+    EdgeGestureSettings.setMenuActions(prefs, Edge.LEFT, actions.toList())
+  }
+
+  @Test
+  fun aFingerRestingOnAnEdgeWithAMenuOpensTheMenuRatherThanExploring() {
+    useLeftEdgeMenu("first", "second")
+    stateChangeAt(STATE_TOUCH_INTERACTING, 0)
+    touchAt(ACTION_DOWN, 2f, 200f, 0)
+    runUntil(250)
+    // Touch exploration would stop the moves from coming in, so the touch stays with the monitor.
+    assertEquals(listOf<Thread>(), reporter.requests)
+    assertEquals(listOf("ready"), service.edgeEvents)
+
+    touchAt(ACTION_MOVE, 80f, 200f, 260)
+    touchAt(ACTION_MOVE, 150f, 200f, 280)
+    touchAt(ACTION_UP, 150f, 200f, 300)
+    runUntil(350)
+
+    assertEquals(listOf<Thread>(), reporter.requests)
+    assertEquals(
+      listOf("ready", "item first", "item second", "perform second"),
+      service.edgeEvents,
+    )
+  }
+
+  @Test
+  fun aWideEdgeOpensTheMenuSoonAfterWhereTheFingerRested() {
+    useLeftEdgeMenu("first", "second")
+    val prefs = SharedPreferencesUtils.getSharedPreferences(service)
+    prefs
+      .edit()
+      .putInt(EdgeGestureSettings.PREF_WIDTH, EdgeGestureSettings.MAX_WIDTH_QUARTERS)
+      .commit()
+    stateChangeAt(STATE_TOUCH_INTERACTING, 0)
+    touchAt(ACTION_DOWN, 2f, 200f, 0)
+    runUntil(250)
+    // Still well inside the 2 cm edge, but 0.5 cm from where the finger rested.
+    touchAt(ACTION_MOVE, 40f, 200f, 260)
+    touchAt(ACTION_UP, 40f, 200f, 280)
+    runUntil(330)
+
+    assertEquals(listOf<Thread>(), reporter.requests)
+    assertEquals(listOf("ready", "item first", "perform first"), service.edgeEvents)
+  }
+
+  @Test
+  fun aFingerRestingOnAnEdgeExploresOnceItSlidesAlongTheEdge() {
+    useLeftEdgeMenu("first")
+    stateChangeAt(STATE_TOUCH_INTERACTING, 0)
+    touchAt(ACTION_DOWN, 2f, 200f, 0)
+    runUntil(250)
+    touchAt(ACTION_MOVE, 2f, 300f, 260)
+    runUntil(270)
+
+    assertEquals(listOf(mainThread), reporter.requests)
+    assertEquals(listOf("ready"), service.edgeEvents)
+  }
+
+  @Test
+  fun aFingerRestingOnAnEdgeWithoutAMenuExploresAsAnywhereElse() {
+    useLeftEdgeMenu()
+    stateChangeAt(STATE_TOUCH_INTERACTING, 0)
+    touchAt(ACTION_DOWN, 2f, 200f, 0)
+    runUntil(250)
+
+    assertEquals(listOf(mainThread), reporter.requests)
+    assertEquals(listOf<String>(), service.edgeEvents)
   }
 }

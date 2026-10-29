@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- The right edge's gestures and hidden menu. Keys must match EdgeGestureSettings. The menu
-     items get their titles in EdgeGesturesFragment. -->
+     items, and the item that adds one, are added after the gestures in EdgeGesturesFragment. They
+     can't have a category of their own, which would be empty here and so be filtered out. -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
   <com.google.android.accessibility.material.preference.AccessibilitySuitePreferenceCategory
       android:key="pref_category_edge_right_gestures"
@@ -20,49 +21,5 @@
         android:key="pref_edge_right_triple_tap"
         android:summary="%s"
         android:title="@string/title_pref_edge_triple_tap"/>
-  </com.google.android.accessibility.material.preference.AccessibilitySuitePreferenceCategory>
-  <com.google.android.accessibility.material.preference.AccessibilitySuitePreferenceCategory
-      android:key="pref_category_edge_right_menu"
-      android:title="@string/title_pref_category_edge_menu">
-    <com.google.android.accessibility.talkback.preference.base.GestureListPreference
-        android:defaultValue="@string/shortcut_value_unassigned"
-        android:key="pref_edge_right_menu_1"
-        android:summary="%s"/>
-    <com.google.android.accessibility.talkback.preference.base.GestureListPreference
-        android:defaultValue="@string/shortcut_value_unassigned"
-        android:key="pref_edge_right_menu_2"
-        android:summary="%s"/>
-    <com.google.android.accessibility.talkback.preference.base.GestureListPreference
-        android:defaultValue="@string/shortcut_value_unassigned"
-        android:key="pref_edge_right_menu_3"
-        android:summary="%s"/>
-    <com.google.android.accessibility.talkback.preference.base.GestureListPreference
-        android:defaultValue="@string/shortcut_value_unassigned"
-        android:key="pref_edge_right_menu_4"
-        android:summary="%s"/>
-    <com.google.android.accessibility.talkback.preference.base.GestureListPreference
-        android:defaultValue="@string/shortcut_value_unassigned"
-        android:key="pref_edge_right_menu_5"
-        android:summary="%s"/>
-    <com.google.android.accessibility.talkback.preference.base.GestureListPreference
-        android:defaultValue="@string/shortcut_value_unassigned"
-        android:key="pref_edge_right_menu_6"
-        android:summary="%s"/>
-    <com.google.android.accessibility.talkback.preference.base.GestureListPreference
-        android:defaultValue="@string/shortcut_value_unassigned"
-        android:key="pref_edge_right_menu_7"
-        android:summary="%s"/>
-    <com.google.android.accessibility.talkback.preference.base.GestureListPreference
-        android:defaultValue="@string/shortcut_value_unassigned"
-        android:key="pref_edge_right_menu_8"
-        android:summary="%s"/>
-    <com.google.android.accessibility.talkback.preference.base.GestureListPreference
-        android:defaultValue="@string/shortcut_value_unassigned"
-        android:key="pref_edge_right_menu_9"
-        android:summary="%s"/>
-    <com.google.android.accessibility.talkback.preference.base.GestureListPreference
-        android:defaultValue="@string/shortcut_value_unassigned"
-        android:key="pref_edge_right_menu_10"
-        android:summary="%s"/>
   </com.google.android.accessibility.material.preference.AccessibilitySuitePreferenceCategory>
 </PreferenceScreen>
