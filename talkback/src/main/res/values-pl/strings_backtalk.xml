@@ -683,4 +683,13 @@
   <string name="new_theme_exists">Temat o tej nazwie już istnieje.</string>
   <string name="new_theme_needs_name">Wpisz nazwę.</string>
   <string name="sound_theme_customisation">Dostosowywanie dźwięków</string>
+  <string name="title_pref_category_edge_gestures">Gesty krawędziowe</string>
+  <string name="title_pref_edge_gestures">Gesty krawędziowe</string>
+  <string name="summary_pref_edge_gestures">Gesty zaczęte na lewej lub prawej krawędzi ekranu mają własne akcje. Połóż palec na krawędzi i przesuń go w stronę środka, aby usłyszeć menu krawędziowe, i podnieś go na pozycji, aby ją wykonać. Dotknięcie i dwukrotne dotknięcie krawędzi działają jak wszędzie indziej. Wymaga włączenia opcji Używaj gestów w Backtalku.</string>
+  <string name="title_pref_edge_left">Lewa krawędź</string>
+  <string name="title_pref_edge_right">Prawa krawędź</string>
+  <string name="title_pref_category_edge_gesture_actions">Gesty na tej krawędzi</string>
+  <string name="title_pref_edge_triple_tap">Trzykrotne dotknięcie</string>
+  <string name="title_pref_category_edge_menu">Menu krawędziowe</string>
+  <string name="template_pref_edge_menu_item">Pozycja menu %1$d</string>
 </resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of the category in gesture settings for gestures that start on the left or right edge of the screen. [CHAR LIMIT=40] -->
+    <string name="title_pref_category_edge_gestures">Edge gestures</string>
+    <!-- Title of the switch that turns edge gestures on. [CHAR LIMIT=40] -->
+    <string name="title_pref_edge_gestures">Edge gestures</string>
+    <!-- Summary of the switch that turns edge gestures on. [CHAR LIMIT=NONE] -->
+    <string name="summary_pref_edge_gestures">Give gestures that start on the left or right edge actions of their own. Rest a finger on an edge and slide it toward the middle to hear the edge menu, and lift on an item to perform it. Touching and double-tapping an edge still work as anywhere else. Requires Handle gestures in Backtalk.</string>
+    <!-- Title of the screen with the actions of the left edge. [CHAR LIMIT=40] -->
+    <string name="title_pref_edge_left">Left edge</string>
+    <!-- Title of the screen with the actions of the right edge. [CHAR LIMIT=40] -->
+    <string name="title_pref_edge_right">Right edge</string>
+    <!-- Title of the category of gestures on one edge of the screen. [CHAR LIMIT=40] -->
+    <string name="title_pref_category_edge_gesture_actions">Gestures on this edge</string>
+    <!-- Title of the setting for a one-finger triple tap on an edge of the screen. [CHAR LIMIT=40] -->
+    <string name="title_pref_edge_triple_tap">Triple-tap</string>
+    <!-- Title of the category of items in the hidden menu of an edge of the screen. [CHAR LIMIT=40] -->
+    <string name="title_pref_category_edge_menu">Edge menu</string>
+    <!-- Title of the setting for one item of the edge menu. [CHAR LIMIT=40] -->
+    <string name="template_pref_edge_menu_item">Menu item <xliff:g id="position" example="1">%1$d</xliff:g></string>
+</resources>

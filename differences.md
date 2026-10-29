@@ -334,6 +334,18 @@ Each step of 30 degrees, a twelfth of a turn, moves one reading control, so you 
 
 The rotor requires Android 13 or later and **Handle gestures in Backtalk** turned on. You can assign other actions to **Rotate clockwise with 2 fingers** and **Rotate counterclockwise with 2 fingers** in gesture settings.
 
+### Edge gestures
+
+The left and right edges of the screen can each have actions of their own. To set them up, go to gesture settings, turn on **Edge gestures**, and open **Left edge** or **Right edge**. Each edge is a strip 0.5 cm wide.
+
+Each edge has a hidden menu of up to 10 actions. Rest a finger on the edge until you hear the item there, then slide it toward the middle of the screen without lifting it. Backtalk says the first item of the menu as soon as your finger leaves the edge, and each next item as you slide further. Lift your finger to perform the item you're on, or slide back onto the edge and lift to cancel. The steps between items are 1 cm wide, or narrower when that many items wouldn't fit across the screen. Menu items without an action are left out, so the menu has as many items as you have chosen.
+
+Touching an edge still says the item under your finger, double-tapping it still activates the item, and a quick swipe from the edge that doesn't rest on it first is still an ordinary swipe. Exploring along the edge, up or down, doesn't open the menu either.
+
+You can also give **Swipe up**, **Swipe down**, and **Triple-tap** with one finger an action of their own on each edge. These replace the gesture's usual action only when it starts on that edge; a gesture without an action on the edge does what it does elsewhere. While an edge has a triple tap, a double tap on that edge waits for the time between taps before it activates the item, in case a third tap follows.
+
+Edge gestures require Android 13 or later and **Handle gestures in Backtalk** turned on. They are off by default, and they aren't on Wear OS watches.
+
 ### Lift to activate
 
 Backtalk can activate the item under your finger when you lift your finger after exploring by touch, as TalkBack already does for keys on the keyboard. In **Controls** > **Touch and activation** > **Lift to activate**, choose **Only on navigation bar** to use it for the Back, Home, and Overview buttons only, or **Entire screen** to use it everywhere. It's **Disabled** by default. With **Only on navigation bar**, a single tap presses the button, and Backtalk says which one, such as "Back" or "Home". To stop this, turn off **Controls** > **Touch and activation** > **Speak navigation bar buttons**.
