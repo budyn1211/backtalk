@@ -71,7 +71,8 @@ abstract class EdgeGesturesFragment(xmlResId: Int, private val edge: Edge) :
       super.onDisplayPreferenceDialog(preference)
       return
     }
-    val fragment: Fragment = preference.createDialogFragment()
+    // Null on phones and watches, which list the actions on a screen of their own.
+    val fragment: Fragment? = preference.createDialogFragment()
     if (fragment is PreferenceDialogFragmentCompat) {
       @Suppress("DEPRECATION") fragment.setTargetFragment(this, 0)
       fragment.show(parentFragmentManager, preference.key)
