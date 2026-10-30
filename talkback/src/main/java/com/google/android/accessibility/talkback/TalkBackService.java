@@ -94,6 +94,7 @@ import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
+import android.view.accessibility.AccessibilityWindowInfo;
 import androidx.annotation.VisibleForTesting;
 import androidx.core.content.ContextCompat;
 import androidx.core.os.UserManagerCompat;
@@ -188,6 +189,7 @@ import com.google.android.accessibility.talkback.gesture.GestureController;
 import com.google.android.accessibility.talkback.gesture.GestureHistory;
 import com.google.android.accessibility.talkback.gesture.GestureShortcutMapping;
 import com.google.android.accessibility.talkback.gesture.OtherTouchExplorers;
+import com.google.android.accessibility.talkback.gesture.ScreenPoint;
 import com.google.android.accessibility.talkback.gesture.TwoFingerRotationTracker;
 import com.google.android.accessibility.talkback.gesture.VibrationWatchGestureSettings;
 import com.google.android.accessibility.talkback.imagecaption.ImageCaptionStorage;
@@ -1634,9 +1636,10 @@ public class TalkBackService extends AccessibilityServiceCompat
 
   /**
    * Tells the user that the finger rests on an edge with a menu, so sliding it toward the middle
-   * opens the menu.
+   * opens the menu, and focuses the item under the finger at ({@code x}, {@code y}), as touch
+   * exploration would have.
    */
-  public void onEdgeMenuReady() {
+  public void onEdgeRest(float x, float y) {
     if (!isServiceActive() || PauseController.isPaused() || pipeline == null) {
       return;
     }
@@ -1645,6 +1648,20 @@ public class TalkBackService extends AccessibilityServiceCompat
         .returnFeedback(
             EVENT_ID_UNTRACKED,
             Feedback.sound(R.raw.radial_menu_1).vibration(R.array.view_clicked_pattern));
+    List<AccessibilityWindowInfo> windows = getWindows();
+    @Nullable AccessibilityNodeInfoCompat node =
+        windows == null ? null : ScreenPoint.focusableNodeAt(windows, (int) x, (int) y);
+    if (node != null) {
+      pipeline
+          .getInterpretationReceiver()
+          .input(
+              EVENT_ID_UNTRACKED,
+              Interpretation.Touch.create(
+                  node.isAccessibilityFocused()
+                      ? Interpretation.Touch.Action.TOUCH_FOCUSED_NODE
+                      : Interpretation.Touch.Action.TOUCH_UNFOCUSED_NODE,
+                  node));
+    }
   }
 
   /** Performs the action of an edge gesture, or of the edge menu item that the finger lifted on. */

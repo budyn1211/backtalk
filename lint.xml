@@ -201,6 +201,14 @@
         <ignore regexp="title_pref_edge_triple_tap" />
         <ignore regexp="title_pref_category_edge_menu" />
         <ignore regexp="template_pref_edge_menu_item" />
+        <ignore regexp="title_pref_edge_width" />
+        <ignore regexp="template_edge_width_cm" />
+        <ignore regexp="title_pref_edge_menu_add" />
+        <ignore regexp="summary_pref_edge_menu_item" />
+        <ignore regexp="edge_menu_item_change" />
+        <ignore regexp="edge_menu_item_move_up" />
+        <ignore regexp="edge_menu_item_move_down" />
+        <ignore regexp="edge_menu_item_remove" />
     </issue>
     <!--
       R8 minifies the published builds, but their resources aren't shrunk, since the compositor,

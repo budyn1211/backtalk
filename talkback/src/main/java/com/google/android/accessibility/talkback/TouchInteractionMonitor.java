@@ -62,6 +62,7 @@ import android.view.Display;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 import android.view.accessibility.AccessibilityNodeInfo;
+import android.view.accessibility.AccessibilityWindowInfo;
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -77,10 +78,12 @@ import com.google.android.accessibility.talkback.gesture.EdgeGesture;
 import com.google.android.accessibility.talkback.gesture.EdgeGestureSettings;
 import com.google.android.accessibility.talkback.gesture.EdgeMenu;
 import com.google.android.accessibility.talkback.gesture.EdgeMenuTouch;
+import com.google.android.accessibility.talkback.gesture.ScreenPoint;
 import com.google.android.accessibility.talkback.gesture.TwoFingerRotationTracker;
 import com.google.android.accessibility.utils.AccessibilityNodeInfoUtils;
 import com.google.android.accessibility.utils.AccessibilityServiceCompatUtils;
 import com.google.android.accessibility.utils.AccessibilityWindowInfoUtils;
+import com.google.android.accessibility.utils.FormFactorUtils;
 import com.google.android.accessibility.utils.Performance;
 import com.google.android.accessibility.utils.Performance.EventId;
 import com.google.android.accessibility.utils.SharedPreferencesUtils;
@@ -1298,10 +1301,12 @@ public class TouchInteractionMonitor
       edgeRested = false;
       downsInInteraction++;
       edgeWidthPixels = pixelsPerCm * EdgeGestureSettings.widthCm(sharedPreferences);
-      touchEdge =
-          EdgeGestureSettings.isEnabled(sharedPreferences)
+      @Nullable Edge edge =
+          EdgeGestureSettings.isEnabled(sharedPreferences) && !FormFactorUtils.isAndroidWear()
               ? EdgeGestureSettings.edgeAt(event.getX(), screenWidth(), edgeWidthPixels)
               : null;
+      // The keyboard's keys on the edges type when the finger lifts, which takes touch exploration.
+      touchEdge = edge != null && isOnKeyboard(event.getX(), event.getY()) ? null : edge;
     }
     lastTouchX = event.getX();
     lastTouchY = event.getY();
@@ -1336,27 +1341,32 @@ public class TouchInteractionMonitor
           if (LogUtils.shouldLog(Log.DEBUG)) {
             Log.d(DEBUG_GESTURE_TAG, "Edge menu opened on " + touchEdge);
           }
-        } else if (Math.abs(event.getY() - edgeRestY) > 2 * tapSlop) {
+          gestureDetector.clear();
+          // The matchers miss the rest of this touch, so a new touch in this interaction starts
+          // them over.
+          clearGestureDetectorOnNextDown = true;
+          return true;
+        }
+        if (Math.abs(event.getY() - edgeRestY) > 2 * tapSlop) {
           // The finger explores along the edge, so the items there are explored as anywhere else.
           edgeRested = false;
           requestTouchExploration("edgeExplore");
+          return true;
         }
       }
-      case ACTION_POINTER_DOWN -> {
-        // A second finger landed: the touch is handled as anywhere else, as a scroll or a drag.
-        edgeRested = false;
-        return false;
-      }
-      // Lifted on the edge, which does nothing.
-      case ACTION_UP, ACTION_CANCEL -> edgeRested = false;
+      // A second finger landed: the touch is handled as anywhere else, as a gesture, a scroll or a
+      // drag. A lift leaves the item that the finger rested on focused.
+      case ACTION_POINTER_DOWN, ACTION_UP, ACTION_CANCEL -> edgeRested = false;
       default -> {}
     }
-    return true;
+    // The gesture matchers follow the resting finger, for a second finger that may land.
+    return false;
   }
 
   /**
    * Keeps a finger resting on an edge with a menu from starting touch exploration, which would stop
-   * the motion events the menu needs. Returns true if it did.
+   * the motion events the menu needs, and focuses the item under it instead. Returns true if it
+   * did.
    */
   private boolean restOnEdge() {
     if (touchEdge == null
@@ -1376,12 +1386,15 @@ public class TouchInteractionMonitor
     edgeRestX = lastTouchX;
     edgeRestY = lastTouchY;
     requestTouchExplorationDelayed.cancel();
-    gestureDetector.clear();
-    // The matchers miss the rest of this touch, so a new touch in this interaction starts them
-    // over.
-    clearGestureDetectorOnNextDown = true;
-    mainHandler.post(service::onEdgeMenuReady);
+    float x = lastTouchX;
+    float y = lastTouchY;
+    mainHandler.post(() -> service.onEdgeRest(x, y));
     return true;
+  }
+
+  private boolean isOnKeyboard(float x, float y) {
+    List<AccessibilityWindowInfo> windows = service.getWindows();
+    return windows != null && ScreenPoint.isOnKeyboard(windows, (int) x, (int) y);
   }
 
   /** Returns the action that the edge where the touch started has for {@code gestureId}. */
