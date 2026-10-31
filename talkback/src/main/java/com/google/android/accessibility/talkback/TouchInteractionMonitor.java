@@ -388,7 +388,9 @@ public class TouchInteractionMonitor
 
               @Override
               public boolean isSwipeAndHoldAssigned(int gestureId) {
-                return isGestureAssigned(gestureId);
+                // On a lift-to-type keyboard, a slide that stops on a key types it when the finger
+                // lifts, as without hold gestures, rather than holding.
+                return !isLiftToType && isGestureAssigned(gestureId);
               }
             },
             logger,
